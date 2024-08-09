@@ -1,0 +1,7 @@
+Primera practica buscar un framework diferente, y hacer correr una red, Tersorflow puro sin keras, pude ser otros, menos  Tersowflow.
+
+Llenar el dataset hasta el 16 de agosto. 
+15000 imágenes por cada planta.
+resolución 800x600px
+
+Instalar Cuda para Pythorchs
