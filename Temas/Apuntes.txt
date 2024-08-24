@@ -5,3 +5,99 @@ Llenar el dataset hasta el 16 de agosto.
 resolución 800x600px
 
 Instalar Cuda para Pythorchs
+
+Que son las Bitnet -> Investigar que es, como tarea
+
+Bitnet Propone utilizar bits en lugar para evitar la memoria en números decimales muy largos.
+ 
+Relu asegura que un valor no sea negativo, por ejemplo las pixeles no pueden ser negativos.
+
+Sotmax hace que cada valor sea entre 0 y 1, en una distribución de cada valor entre 0 y 1, pone en un solo rango.
+
+79.000 parámetros de entrar del ejemplo de la red de pythorch
+
+OveFiting es que se esta aprendiendo de memoria
+
+EL error del modelo no tiene numero, tenemos que ver hasta donde podemos llegar con el error.
+
+Lo pesos son los valores randomicos que se calculan, de manera randomicos
+
+Conexiones residuales son conexiones de diferentes capas, son conexiones no secuenciales, En general se llaman Custon
+
+Para una imagenes se necesitan 3 canales, para un 1 pixel necesito 8 bits
+
+
+75.000 x 800x600 = 36.000.000 pixeles
+3000 batch_size
+Aplicar esto para los modelos que realizaremos
+- Secuencial
+- Dataset Personalizados
+- Dataloaders
+
+Modelo Detector de plantas medicinales
+Etapas entrenar un modelo.
+
+Cada cierta iteración guardar el archivo de entrenamiento.
+Pythorch model.size
+para cargar load
+
+Fecha y numero de iteraciones
+guardar el modelo por cada epoc
+
+
+Practico 
+Que modelos pueden caber, la mayor cantidad de modelos y sus tamaños
+cuales de estos modelos pueden caber en nuestro equipo. 
+
+
+Revisar Yolo
+
+Aplicar en C++
+Aplicar el Torchscript
+imagen de un numero que puedo 
+Buscar un modelo para aplicar el Torchscript para hacer en C++
+
+ONNX sirve para llevar un modelo a una aplicación en celular o otros.
+
+Usar Onnx abrir en otra aplicación
+
+
+Estar haciendo
+Crear Dataset
+Creando lo enpoits
+Haciendo el Onnx
+
+
+
+
+Viernes 16/8/2024
+El overfiting tiene poco error con los datos de entrenamiento, pero error alto con los datos nuevos datos de prueba
+
+
+Utilizar la aplicación ZAN para recortar imágenes, para las imágenes
+
+APLICAR TODOS LOS CRITERIOS DE REGULARIZACION, OPTIMIZACION, BUENAS PRACTICAS. Utilizar Adan.
+
+
+
+La convolución es la forma de resaltar la forma de una imagen, sus elementos, mostrar una pauta que el cerebro pueda detectar. 
+
+Los redes convolucionales utilizan varios kerneles
+
+Si tengo 4 kerneles me saldría 4 neuronas
+
+
+
+
+El pooling
+
+
+
+Pregunta, afectara el entrenamiento cuando reduzco o amplio la imagens de 800px y 600px 
+
+Si tengo una imagen una imagen 32x32 
+
+
+Buscar una red preEntrenada, no debe ser mayor de 5 años
+
+buscar en peipel swith code para buscar modelo  y probar con nuestros datos
