@@ -101,3 +101,20 @@ Si tengo una imagen una imagen 32x32
 Buscar una red preEntrenada, no debe ser mayor de 5 años
 
 buscar en peipel swith code para buscar modelo  y probar con nuestros datos
+
+
+INVATION3
+Ver capas y parámetros del modelo preentrenados y ver con que dataset esta entrenado el modelo preentrenado.
+
+TRANSFER LEARNING
+Sirve para recuperar parámetros de cada neurona de las capas 
+Remplazar las capas por nuestras capa propia
+Solo se puede reemplazar la utima capa de salida.
+No seria necesario de entrenar de nuevo, solo podríamos remplazar la ultima capa de salida, para que nos predija con nuestro capa propia que la remplacemos
+Es como aprover esa información
+
+
+Después aplicar Fautiuny, 
+
+
+Preguntas de como afecta si reduzco el tamaño de la imagen si el modelo aprenda
