@@ -118,3 +118,23 @@ Después aplicar Fautiuny,
 
 
 Preguntas de como afecta si reduzco el tamaño de la imagen si el modelo aprenda
+
+
+
+REDES NEURONALES RECURRENTES
+
+
+PREDICCION DE SERIES TEMPORALES
+
+tangente hiporbólica es como función de activación de las redes neuronales recurrentes
+
+
+Repasar LSTM para las redes recurrentes
+sirven para una secuencia de pasos como un secuencia de imagens  si una persona se mueve de manera correcta.
+
+Son memorias que influencia pueden tener 
+
+
+
+
+Realiza el calculo de parámetros se consideran cada uno estos.
