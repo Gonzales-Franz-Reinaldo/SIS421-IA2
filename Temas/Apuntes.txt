@@ -138,3 +138,14 @@ Son memorias que influencia pueden tener
 
 
 Realiza el calculo de parámetros se consideran cada uno estos.
+
+
+Matriz de Confusión, falsos negativos y falsos positivos. esto para verificar si tenemos errores con el Dataset.
+
+Aplicar el Stoping
+
+
+Se podría generar un dataset para RNN del agua, se puede hacer el dataset con el mismo red recurrente, tomando en cuenta los rangos.
+
+
+

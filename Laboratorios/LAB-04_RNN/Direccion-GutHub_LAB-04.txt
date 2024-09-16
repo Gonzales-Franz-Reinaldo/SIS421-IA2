@@ -1,0 +1,3 @@
+Dirección del GitHub del LAB-04
+
+Link: https://github.com/Gonzales-Franz-Reinaldo/SIS421-IA2/tree/main/Laboratorios/LAB-04_RNN
