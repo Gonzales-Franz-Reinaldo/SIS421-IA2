@@ -1,0 +1,92 @@
+2.1. Políticas académicas
+
+En concordancia con su condición de carrera del sistema público, el ingreso de nuevos estudiantes a la carrera debe tomar en cuenta la aptitud de los postulantes para la misma, no así los conocimientos previos.
+Con el sistema actual, que sólo toma en cuenta los conocimientos, se favorece a bachilleres de colegios particulares, quienes por lo general están mejor preparados que los bachilleres de colegios fiscales y de provincia, pero además, el que un estudiante tenga ciertos conocimientos, no garantiza que sea apto para la carrera.
+
+La carrera tiene que proporcionar los medios y mecanismos a fin de garantizar que los nuevos estudiantes adquieran los conocimientos necesarios para dar inicio a su formación profesional.
+Para que la política de admisión pueda ser aplicada, es imprescindible que la carrera proporcione los mecanismos necesarios para lograr la nivelación de conocimientos. Aspecto que puede ser implementado mediante cursos preuniversitarios, que pueden ser impartidos al finalizar el período escolar (una vez admitidos en la carrera), pues las pruebas de aptitud no requieren preparación previa.
+
+La formación en ciencias básicas y de ingeniería debe habituar, a los futuros egresados, en la aplicación del método científico, tanto en el abordaje como en la solución de problemas.
+Actualmente las asignaturas correspondientes a las ciencias básicas se enfocan en impartir conocimientos enciclopédicos, así como adquirir habilidades mecánicas, pero no inciden en el análisis, abstracción y modelación de la realidad, habilidades que son de mayor utilidad en el desempeño laboral del futuro ingeniero.
+
+Es necesario que la práctica pre-profesional regulada esté incorporada en diferentes asignaturas y en todos los niveles, como parte del proceso de formación académica.
+La práctica pre-profesional debe ser incorporada, desde las etapas iniciales de formación académica, para que los estudiantes adquieran experiencia práctica en la solución de problemas reales, familiarizándose con los ambientes laborales, sin embargo, se debe evitar que las mismas sean excesivamente rutinarias o parciales, sino que por el contrario tengan suficiente interés científico o tecnológico, insertando al futuro egresado en el mundo en que deberá desempeñarse.
+
+Los métodos de enseñanza deben potenciar la aptitud del nuevo ingeniero para aprender por cuenta propia, priorizando la adaptación a nuevas situaciones y tecnologías.
+En todas las áreas de la ingeniería y en particular en las relacionadas con el ámbito de la informática, donde los conocimientos se actualizan e innovan permanentemente, es imprescindible que los futuros profesionales tengan la capacidad de actualizarse y continuar su formación por cuenta propia, por lo que dichas habilidades deben ser motivadas y reforzadas mediante técnicas de estudio orientadas a ese fin.
+
+Es indispensable que los diseños curriculares sean estructurados de forma que los egresados puedan desarrollar sus tareas de ingeniería tanto de forma autónoma como en equipos de trabajo, aplicando correcta y eficientemente técnicas de trabajo en equipo y de liderazgo.
+Los egresados de la carrera deben estar preparados para desarrollar su trabajo tanto de forma independiente como en equipos de trabajo. Actualmente se fomenta el trabajo independiente, pero en una sociedad cada vez más globalizada, es necesario que adquieran la capacidad de desarrollar su trabajo en equipos, incluso equipos multidisciplinarios.
+
+La carrera debe otorgar títulos intermedios, a nivel de técnico medio y superior, a los estudiantes que venzan satisfactoriamente conjuntos específicos de asignaturas.
+Los estudiantes que hayan vencido satisfactoriamente conjuntos específicos de asignaturas recibirán, automáticamente, los títulos de técnico medio y superior, lo que posibilitará su inserción inmediata en el mercado laboral. De esa manera, los estudiantes que requieran recursos económicos para continuar con su formación académica, contarán con una alternativa práctica que además les proporcionará experiencia profesional real en su formación.
+
+Los planes de estudio de la carrera y los programas de estudio de las asignaturas tienen que estar organizados y elaborados de manera que, al aprobar conjuntos específicos de asignaturas, los estudiantes hayan adquirido competencias suficientes para desempeñarse, efectivamente, como técnicos medios y superiores.
+Para otorgar títulos intermedios es necesario que los planes de estudio y los programas analíticos de las asignaturas permitan la adquisición de competencias prácticas, de forma tal que los estudiantes estén capacitados para resolver efectiva y eficientemente problemas reales.
+
+La carrera garantiza la titulación automática de sus egresados al término de su formación curricular.
+Es necesario actualizar, optimizar, desechar e innovar nuevos mecanismos de titulación, pues, los actuales, son verdaderos cuellos de botella que distorsionan la relación titulados/admitidos, retardan e incluso impiden la inserción de nuevos profesionales en el mercado laboral y no contribuyen efectivamente en la formación de los nuevos profesionales. En ese sentido se deben estudiar e implementar nuevas opciones de titulación como las de titulación por vencimiento de talleres, titulación por prácticas laborales, titulación por especialización, etc.
+
+La formación de los futuros profesionales no debe estar estrictamente vinculada con la ingeniería, sino que debe incluir disciplinas complementarias, que permitan ampliar la visión del egresado a otros aspectos de la realidad, especialmente sociales, económicos y ambientales.
+Los egresados de la carrera deberán contar con habilidades no sólo ingenieriles, sino también sociales, económicas y ambientales, que inevitablemente formarán parte de su entorno laboral, tales como las habilidades empresariales y de emprendimiento, imprescindibles en el mundo globalizado actual.
+
+La carrera garantiza la actualización permanente, de los docentes de la carrera, en tecnologías de información y comunicación relativas al proceso de enseñanza-aprendizaje, mediante la implementación de cursos, seminarios, talleres y tutoriales.
+Con el fin de aprovechar adecuadamente las nuevas tecnologías disponibles, en el proceso de enseñanza aprendizaje, es necesario la actualización continua de todos los docentes y en particular de los docentes de las materias básicas, que al tener perfiles de formación diferentes, pueden contar o no con dichos conocimientos. Esta política puede ser implementada a través de la creación de un centro de capacitación continua.
+
+Los programas de las asignaturas deben ser actualizados continuamente y los planes de estudio revisados periódicamente, para mantener la carrera a la par del avance incesante de la ciencia y tecnología.
+Al ser una carrera del área de la informática, donde la ciencia y la tecnología cambian constantemente, no es posible mantener programas y planes de estudio estáticos, por lo que es necesario la actualización permanente de los mismos. Con el tiempo se debe analizar la posibilidad de implementar una estructura, basada en competencias, más o menos estática, siendo los contenidos dinámicos.
+
+2.2. Investigación formativa
+
+La carrera, a través del Centro de Investigación y Desarrollo en Computación, reclutará, entrenará y participará en los concursos nacionales e internacionales de ACM y CMP.
+Actualmente la carrera participa de manera eventual e informal de estos concursos. En lo futuro deberá hacerlo formalmente a través del Centro de Investigación y Desarrollo en Computación, que será la institución encargada de preparar los equipos que participarán en estos y otros eventos, así como de facilitar todos los recursos e insumos que se requieran para ese fin.
+
+Cada gestión académica, la carrera, a través del Centro de Investigación y Desarrollo en Computación y en coordinación con docentes de la carrera, hará seguimiento, viabilizará, facilitará y certificará la elaboración y realización de proyectos de investigación en las diferentes asignaturas de la carrera.
+
+Actualmente en algunas asignaturas se llevan a cabo proyectos de investigación, como parte del proceso de formación académica, sin embargo, dichos proyectos son eventuales y no tienen ningún seguimiento ni apoyo. En lo futuro dichos proyectos deberán ser presentados al Centro de Investigación y Desarrollo en Computación, que será la institución encargada de su aprobación, apoyo, seguimiento y certificación. Asimismo, el centro se encargará de proponer proyectos, que serán llevados a cabo en coordinación con docentes de una o más asignaturas.
+
+La carrera, a través del Centro de Investigación y Desarrollo en Computación, organizará al menos un concurso y una feria de tecnología por semestre, eventos en los cuales se abordará la solución de problemas de interés actual y se expondrán tecnologías y tendencias actuales en el área de la computación.
+El Centro de Investigación y Desarrollo en Computación organizará al menos un concurso de computación por semestre, en dicho concurso se deberán proponer soluciones a uno o más problemas de interés actual y podrán participar estudiantes y docentes de la carrera. También organizará por lo menos una feria por semestre, en la cual se mostrarán las tendencias actuales en la ciencia y tecnología en el área de la computación.
+
+De forma permanente, la carrera, a través del Centro de Investigación y Desarrollo en Computación, propondrá, elaborará y llevará a cabo proyectos de investigación para resolver problemas reales de la carrera, la facultad, la universidad y de la sociedad en general.
+Actualmente, la carrera elabora e implementa proyectos eventuales para dar solución a algunos problemas de la universidad y la sociedad, sin embargo, lo hace de manera informal y sin el apoyo de una organización. En lo futuro deberá hacerlo a través del Centro de Investigación y Desarrollo en Computación, que será la institución encargada de proponer, aprobar, apoyar, facilitar, hacer seguimiento y certificar los proyectos, así como de establecer convenios con otras instituciones y/o empresas. En estos proyectos trabajarán estudiantes, egresados y docentes de la carrera, contribuyendo así, de manera efectiva, al proceso de formación académica.
+
+La carrera reconoce a la actividad de investigación como una actividad intrínseca del proceso de formación académica e incorpora en su plantel docentes investigadores, adicionalmente a los docentes formadores.
+Actualmente la investigación es reconocida sólo como una actividad complementaria a la docencia formativa y en general no es remunerada. Para que la carrera aporte efectivamente a solucionar los problemas de la sociedad, es imprescindible que participe activamente en procesos de investigación.
+
+investigación, pero no podrá hacerlo si la investigación no es reconocida y remunerada como una actividad propia de la docencia universitaria.
+
+2.3. Integración Secundaria – Universidad – Posgrado
+La carrera, a través de un comité permanente, organizará y llevará a cabo anualmente las olimpiadas en computación, con la participación de estudiantes de secundaria de los colegios del departamento.
+Actualmente la carrera participa, de manera informal, en la organización y elaboración de las olimpiadas de secundaria en la Facultad de Tecnología, en lo futuro la carrera deberá hacerse cargo formalmente de las olimpiadas en el área de computación a través del Comité Organizador de Olimpiadas en Computación.
+
+La carrera, a través del Instituto de Computación, brindará capacitación permanente a docentes y estudiantes de los colegios del departamento.
+Actualmente la carrera participa, de manera informal, en la capacitación de docentes y estudiantes de colegios y escuelas del departamento. En lo futuro deberá crearse el Instituto de Computación, que será la institución encargada de establecer convenios con SEDUCA, el Ministerio de Educación, así como la asociación de colegios privados, para la capacitación permanente tanto de docentes como de estudiantes de los colegios del departamento.
+
+La carrera, a través del Centro de Posgrado en Computación, ofrecerá permanentemente programas de especialidad en el área de computación, a egresados y docentes de la carrera, así como a egresados y docentes de otras carreras y disciplinas.
+Actualmente la carrera no cuenta con programas de posgrado. En lo futuro será el Centro de Posgrado en Computación (a cargo de la carrera), la institución encargada de crear, ofertar y administrar los programas de posgrado en el área de computación.
+
+2.4. Lineamientos para el Plan de Desarrollo de Carrera
+Para el desarrollo de la Carrera, es imprescindible contar con la materia prima adecuada, es decir estudiantes que cuenten con las aptitudes requeridas por el estudio y posterior desenvolvimiento laboral en la profesión. Esta situación puede ser subsanada aplicando el sistema de admisión propuesto previamente.
+
+Es importante también contar con docentes motivados y continuamente actualizados, factores que pueden ser subsanados en parte con la aplicación de las políticas propuestas previamente.
+
+Otro factor crucial para el desarrollo y aceptación de la Carrera en el medio y en la sociedad en general, es el mercado laboral disponible para los futuros egresados. Es este factor el que más ha afectado el desarrollo de la carrera en los últimos años, pues el mercado laboral existente ha demostrado ser muy reducido. Ello ha impedido que varios egresados de la carrera puedan vivir realmente de su profesión, lo que se ha constituido en una pésima propaganda para los nuevos postulantes a la carrera. Es este el factor que debe ser atacado con mayor vigor si se pretende lograr un verdadero desarrollo de la carrera y en ese sentido se proponen las siguientes políticas.
+
+La carrera garantiza la inserción de sus egresados en el mercado laboral, a través de convenios con industrias, empresas e instituciones, tanto públicas como privadas y promueve la creación de empresas e industrias por parte de sus egresados.
+La carrera debe establecer convenios con industrias, empresas e instituciones no sólo del medio, sino también a nivel nacional e internacional, que garanticen fuentes de trabajo para sus futuros egresados, adicionalmente, los egresados deben contar con las capacidades y la preparación suficiente como para iniciar y llevar adelante emprendimientos por cuenta propia, en el mercado nacional e internacional, mismos que deberán ser apoyados y promovidos por la carrera.
+
+Como resultado de los procesos de extensión e investigación, la carrera creará continuamente empresas, institutos e industrias descentralizadas autosostenidas, que constituirán nuevas fuentes laborales para los futuros egresados y generarán ingresos económicos adicionales para la carrera.
+La carrera, como resultado de los diferentes proyectos que se llevan adelante en los procesos de extensión e investigación, debe dar lugar al nacimiento de empresas, institutos e industrias descentralizadas, las cuales no sólo constituirán nuevas fuentes laborales para los egresados e ingresos económicos importantes para la carrera, sino que además fortalecerá el proceso de enseñanza-aprendizaje, al participar en los mismos docentes y estudiantes de la carrera, adquiriendo experiencia práctica en la creación, elaboración y lanzamiento al mercado de empresas e industrias del área. Esta actividad además promoverá la formación y el trabajo en equipos multidisciplinarios.
+
+La carrera brindará, a sus egresados, una oferta constante de cursos de actualización cortos, los cuales que permitirán mantener una relación fluida con los egresados, asegurarán la vigencia de los mismos en el mercado laboral y retroalimentarán a la carrera las experiencias profesionales vividas.
+Al ser la carrera tan dinámica, es necesario ofertar a los egresados mecanismos para su actualización continua, de manera que no pierdan vigencia en el mercado laboral, certifiquen sus nuevas aptitudes y se constituyan en fuentes de retroalimentación para la mejora continua de los programas y planes curriculares y los procesos de enseñanza-aprendizaje. En estos cursos (que tienen que ser autosostenidos), se deben aprovechar al máximo las nuevas tecnologías en información y comunicación, para facilitar la participación de los egresados, sin perjudicar sus actividades profesionales. La organización de estos cursos estará a cargo del Centro de Capacitación Continua dependiente de la carrera.
+
+2.5 Perspectivas de Evaluación y Acreditación
+
+La carrera, a través de la Comisión de Acreditación, garantiza la acreditación regular y periódica de la carrera ante los organismos nacionales e internacionales certificados para el efecto.
+La carrera fue acreditada ante la CEUB, hace aproximadamente 10 años, sin embargo, no volvió a presentarse al proceso de re-acreditación dentro del plazo establecido para el efecto. Esto se debe, en gran medida, a la carencia de una organización que se encargue de forma permanente y remunerada, de dicho proceso. Los intentos de acreditación de los últimos años, han fracasado principalmente porque se intenta llevar a cabo el proceso con la colaboración ad-honorem de docentes de la carrera, los cuales deben llevar a cabo las actividades de acreditación y cumplir, al mismo tiempo, con todas sus actividades normales.
+
+Para tener éxito en los procesos de acreditación es imprescindible la creación de una comisión, remunerada, que se encargue del proceso acreditación permanentemente (no eventualmente como ocurre actualmente), la misma que asuma a su cargo todo el proceso de acreditación, es decir recabar la información necesaria, presentar a la dirección los requerimientos académicos y de infraestructura necesarios para la acreditación y/o re-acreditación, llevar a cabo los procesos de autoevaluación, gestionar la acreditación ante los organismos pertinentes, preparar la documentación requerida y hacer el seguimiento permanente de todo el proceso a fin de garantizar su éxito.
+
+

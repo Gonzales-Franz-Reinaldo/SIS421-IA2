@@ -149,3 +149,115 @@ Se podría generar un dataset para RNN del agua, se puede hacer el dataset con e
 
 
 
+
+TRANSFORMES
+
+Self attention.- 
+
+La softmax convierte o transforma los valores en probabilidades entre 0 y 1
+
+Los K y Q son perceptrones que están multiplicando a los Xs
+
+MLP Linear(784, 784) total de parámetros es de 615440
+Linear (784, 10) total de 623290 parámetros
+
+Hacer un diagrama de flujo de como esta funcionando el código que se vio en lo ultimo del segundo ejercicio, de que se esta haciendo y explicar a detalle.
+
+
+Estar Revisando
+Estatuto Orgánico
+Documento de la facultad, sobre los elementos de la facultad.
+Documento, cantidad de token
+token es palabras, etc.
+Documento de palabras convertir en txt
+
+Cada palabra 
+
+
+
+Averiguar que es Bits Net
+
+
+Ala dbn pers ssn -> ver su canal para la parte teorica, canal de YouTube
+
+
+
+- TRANSFORMER ENCODER
+EL embedding es la transformación de de una dimension a otra dimension,
+transformar de una dimension a otra dimension mas pequeña
+
+La dimension es el numero de tokens
+
+
+Verificar la diferencia 
+
+
+
+CMPUTER VISION
+En lacacion cada cuadrito remarcado es un bndBox y tine una etiqueta
+Para hacer una Localización la imagen debe tener archivo de anotación para ver las cordenadas, la imagen propia tiene su archivo de imagen
+
+Al hacer dataAumetation podemos separadas imágenes por rotado, escalado, R00.pgn, E00.png
+
+No usar RowerFlow
+
+Para hacer Localización necesitamos tener el archivo de anotación, podemos usar LabImg, RowerFlow, labAmi
+pip install lab images
+Primero usar el LabAmi para remarcar las imágenes
+
+Para segmentar el Xam
+
+
+Para clasificar la imagen necesitamos una clasificación
+para obtener los 4 puntos necesitamos una regresión
+
+
+Conseguir Hacer una librería  para generar la cantidad de imágenes dataAumetation, con el uso de la librería de albumentations, las tranformaciones deben afectar al arcivo de marcaciones
+
+
+Localización + Clasificación no es mas que en una red neuronal existen varios heads tanto para regresio y clasificación, las capas de entrada y oculta son blockbord
+
+
+Cual es la forma de distribución  de cajas en yolo y de otros modelos
+
+
+formato del detector, 
+
+
+
+28/10/24
+
+Ver si aplicamos BordenBox si es que no es necesario segmentar
+
+Para volver a su dimension original se aplica encoder-decoder
+
+- Los convoluciones hacen que extraen la características mas importantes de una imagen, 
+
+ver arquitectura para este tema.
+
+
+En segmentacion utilizaos el nombre de mascaras
+
+Las mascaras son los sectores que indentificamos en una imagen
+
+Para remarcar aplicar SXAM, 
+
+
+one-hot encoding-> crea una matriz, por cada pixel poner 0, 1, 0
+
+Podemos aplicar el modelo pre-entrenar el modelo UNet
+
+
+Usar SAM para segmentar y lo único que debemos hacer es etiquetar para después la imagen a un modelo
+
+
+
+VISION ARTIFICIAL
+Tipos de Tareas 
+ CALISIFICACION: 
+ Localización: es un problema de regresión porque estamos realizando el calculo de las corndenadas.
+
+
+
+Para la configuración de imágenes es para transformar las imágenes
+librería albumentatios para trnsformaciones 
