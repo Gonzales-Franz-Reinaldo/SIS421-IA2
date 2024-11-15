@@ -1,0 +1,3202 @@
+[
+    {
+        "instruccion": "Quiero realizar un contador del 1 al 10",
+        "codigo": "for (int i = 1; i <= 10; i++) { std::cout << i << std::endl; }"
+    },
+    {
+        "instruccion": "Imprimir 'Hola Mundo'",
+        "codigo": "std::cout << \"Hola Mundo\" << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable entera llamada 'x' con valor 5",
+        "codigo": "int x = 5;"
+    },
+    {
+        "instruccion": "Crear una función que reciba dos enteros y devuelva su suma",
+        "codigo": "int suma(int a, int b) { return a + b; }"
+    },
+    {
+        "instruccion": "Realizar un bucle que sume los números del 1 al 100",
+        "codigo": "int suma = 0; for (int i = 1; i <= 100; i++) { suma += i; }"
+    },
+    {
+        "instruccion": "Crear un bucle que imprima los números pares del 1 al 20",
+        "codigo": "for (int i = 2; i <= 20; i += 2) { std::cout << i << std::endl; }"
+    },
+    {
+        "instruccion": "Definir una función que calcule el factorial de un número",
+        "codigo": "int factorial(int n) { return (n <= 1) ? 1 : n * factorial(n - 1); }"
+    },
+    {
+        "instruccion": "Declarar un arreglo de 5 enteros inicializado con los valores 1, 2, 3, 4, 5",
+        "codigo": "int arr[5] = {1, 2, 3, 4, 5};"
+    },
+    {
+        "instruccion": "Crear un bucle que imprima los elementos de un arreglo de enteros",
+        "codigo": "int arr[] = {1, 2, 3, 4, 5}; for (int i = 0; i < 5; i++) { std::cout << arr[i] << std::endl; }"
+    },
+    {
+        "instruccion": "Escribir una función que determine si un número es par o impar",
+        "codigo": "std::string esPar(int n) { return (n % 2 == 0) ? \"Par\" : \"Impar\"; }"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 5",
+        "codigo": "#include <cmath>\ndouble radio = 5.0;\ndouble area = M_PI * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un número y devuelva su cuadrado",
+        "codigo": "int cuadrado(int num) { return num * num; }"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo double llamada 'precio' con valor 19.99",
+        "codigo": "double precio = 19.99;"
+    },
+    {
+        "instruccion": "Escribir un programa que sume los elementos de un arreglo de enteros",
+        "codigo": "int arr[] = {1, 2, 3, 4, 5};\nint suma = 0;\nfor (int i = 0; i < 5; i++) { suma += arr[i]; }\nstd::cout << \"La suma es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Crear un bucle que multiplique los números del 1 al 10",
+        "codigo": "int producto = 1;\nfor (int i = 1; i <= 10; i++) { producto *= i; }\nstd::cout << \"El producto es: \" << producto << std::endl;"
+    },
+    {
+        "instruccion": "Definir una función que convierta grados Celsius a Fahrenheit",
+        "codigo": "double celsiusAFahrenheit(double c) { return (c * 9/5) + 32; }"
+    },
+    {
+        "instruccion": "Escribir una función que determine si un carácter es una vocal",
+        "codigo": "bool esVocal(char c) { c = tolower(c); return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u'; }"
+    },
+    {
+        "instruccion": "Calcular el promedio de un arreglo de enteros",
+        "codigo": "int arr[] = {10, 20, 30, 40, 50};\nint suma = 0;\nfor (int i = 0; i < 5; i++) { suma += arr[i]; }\ndouble promedio = suma / 5.0;\nstd::cout << \"El promedio es: \" << promedio << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los números del 10 al 1 en orden descendente",
+        "codigo": "for (int i = 10; i >= 1; i--) { std::cout << i << std::endl; }"
+    },
+    {
+        "instruccion": "Declarar una variable bool llamada 'activo' con valor true",
+        "codigo": "bool activo = true;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número entero",
+        "codigo": "int valorAbsoluto(int num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Calcular el área de un rectángulo con base 8 y altura 5",
+        "codigo": "int base = 8;\nint altura = 5;\nint area = base * altura;\nstd::cout << \"El área del rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima los primeros 10 números impares",
+        "codigo": "for (int i = 1; i <= 20; i += 2) { std::cout << i << std::endl; }"
+    },
+    {
+        "instruccion": "Definir una función que convierta metros a kilómetros",
+        "codigo": "double metrosAKilometros(double metros) { return metros / 1000; }"
+    },
+    {
+        "instruccion": "Crear un bucle que imprima los elementos de un arreglo de caracteres",
+        "codigo": "char arr[] = {'a', 'b', 'c', 'd', 'e'};\nfor (int i = 0; i < 5; i++) { std::cout << arr[i] << std::endl; }"
+    },
+    {
+        "instruccion": "Declarar un puntero a entero llamado 'p' que apunte a una variable 'num' con valor 10",
+        "codigo": "int num = 10;\nint* p = &num;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un arreglo de enteros y devuelva el máximo valor",
+        "codigo": "int maximo(int arr[], int tam) {\n    int max = arr[0];\n    for (int i = 1; i < tam; i++) {\n        if (arr[i] > max) max = arr[i];\n    }\n    return max;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule la suma de los números pares entre 1 y 50",
+        "codigo": "int suma = 0;\nfor (int i = 2; i <= 50; i += 2) { suma += i; }\nstd::cout << \"La suma es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Definir una estructura llamada 'Persona' con los campos 'nombre' y 'edad'",
+        "codigo": "struct Persona {\n    std::string nombre;\n    int edad;\n};"
+    },
+    {
+        "instruccion": "Escribir una función que determine si un número es primo",
+        "codigo": "bool esPrimo(int n) {\n    if (n <= 1) return false;\n    for (int i = 2; i <= sqrt(n); i++) {\n        if (n % i == 0) return false;\n    }\n    return true;\n}"
+    },
+    {
+        "instruccion": "Crear una función que reciba dos números y devuelva el mayor de los dos",
+        "codigo": "int mayor(int a, int b) { return (a > b) ? a : b; }"
+    },
+    {
+        "instruccion": "Imprimir la tabla de multiplicar del 5",
+        "codigo": "for (int i = 1; i <= 10; i++) { std::cout << \"5 * \" << i << \" = \" << 5 * i << std::endl; }"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un cuadrado con lado de 7",
+        "codigo": "int lado = 7;\nint perimetro = 4 * lado;\nstd::cout << \"El perímetro del cuadrado es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Crear un bucle que imprima los números del 1 al 50, pero sólo los múltiplos de 3",
+        "codigo": "for (int i = 1; i <= 50; i++) { if (i % 3 == 0) std::cout << i << std::endl; }"
+    },
+    {
+        "instruccion": "Escribir una función que invierta los elementos de un arreglo de enteros",
+        "codigo": "void invertir(int arr[], int tam) {\n    for (int i = 0; i < tam / 2; i++) {\n        int temp = arr[i];\n        arr[i] = arr[tam - 1 - i];\n        arr[tam - 1 - i] = temp;\n    }\n}"
+    },
+    {
+        "instruccion": "Crear una variable string llamada 'mensaje' con valor 'Bienvenido'",
+        "codigo": "std::string mensaje = \"Bienvenido\";"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta grados Fahrenheit a Celsius",
+        "codigo": "double fahrenheitACelsius(double f) { return (f - 32) * 5/9; }"
+    },
+    {
+        "instruccion": "Definir una función que calcule el promedio de un arreglo de doubles",
+        "codigo": "double promedio(double arr[], int tam) {\n    double suma = 0;\n    for (int i = 0; i < tam; i++) {\n        suma += arr[i];\n    }\n    return suma / tam;\n}"
+    },
+    {
+        "instruccion": "Declarar un arreglo de strings con los días de la semana",
+        "codigo": "std::string dias[] = {\"Lunes\", \"Martes\", \"Miércoles\", \"Jueves\", \"Viernes\", \"Sábado\", \"Domingo\"};"
+    },
+    {
+        "instruccion": "Crear una función que reciba una cadena y devuelva su longitud",
+        "codigo": "int longitudCadena(std::string cadena) { return cadena.length(); }"
+    },
+    {
+        "instruccion": "Definir una función que devuelva la suma de los dígitos de un número entero",
+        "codigo": "int sumaDigitos(int num) {\n    int suma = 0;\n    while (num != 0) {\n        suma += num % 10;\n        num /= 10;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Crear una variable constante llamada 'PI' con el valor de 3.1416",
+        "codigo": "const double PI = 3.1416;"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima el alfabeto en letras mayúsculas",
+        "codigo": "for (char c = 'A'; c <= 'Z'; c++) { std::cout << c << ' '; }"
+    },
+    {
+        "instruccion": "Calcular la hipotenusa de un triángulo rectángulo con catetos 3 y 4",
+        "codigo": "#include <cmath>\ndouble cateto1 = 3.0, cateto2 = 4.0;\ndouble hipotenusa = sqrt(cateto1 * cateto1 + cateto2 * cateto2);\nstd::cout << \"La hipotenusa es: \" << hipotenusa << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el factorial de un número usando un bucle for",
+        "codigo": "int factorial(int n) {\n    int resultado = 1;\n    for (int i = 2; i <= n; i++) {\n        resultado *= i;\n    }\n    return resultado;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta horas en segundos",
+        "codigo": "int horas;\nstd::cout << \"Ingrese el número de horas: \";\nstd::cin >> horas;\nint segundos = horas * 3600;\nstd::cout << horas << \" horas equivalen a \" << segundos << \" segundos.\" << std::endl;"
+    },
+    {
+        "instruccion": "Definir una función que reciba un número y devuelva 'positivo', 'negativo' o 'cero'",
+        "codigo": "std::string tipoNumero(int num) {\n    if (num > 0) return \"positivo\";\n    else if (num < 0) return \"negativo\";\n    return \"cero\";\n}"
+    },
+    {
+        "instruccion": "Crear una variable que almacene la raíz cuadrada de 25",
+        "codigo": "#include <cmath>\ndouble raiz = sqrt(25);"
+    },
+    {
+        "instruccion": "Escribir una función que determine si una palabra es palíndromo",
+        "codigo": "bool esPalindromo(std::string palabra) {\n    int inicio = 0, fin = palabra.length() - 1;\n    while (inicio < fin) {\n        if (palabra[inicio] != palabra[fin]) return false;\n        inicio++;\n        fin--;\n    }\n    return true;\n}"
+    },
+    {
+        "instruccion": "Definir una función que reciba un número y devuelva su cubo",
+        "codigo": "int cubo(int num) { return num * num * num; }"
+    },
+    {
+        "instruccion": "Calcular el número de palabras en una cadena de texto",
+        "codigo": "int contarPalabras(std::string texto) {\n    int palabras = 0;\n    std::istringstream stream(texto);\n    std::string palabra;\n    while (stream >> palabra) { palabras++; }\n    return palabras;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el menor de tres números enteros",
+        "codigo": "int menorDeTres(int a, int b, int c) {\n    return std::min(a, std::min(b, c));\n}"
+    },
+    {
+        "instruccion": "Declarar un vector de enteros con los números 1, 2, 3, 4, 5",
+        "codigo": "#include <vector>\nstd::vector<int> numeros = {1, 2, 3, 4, 5};"
+    },
+    {
+        "instruccion": "Imprimir los elementos de un vector de enteros",
+        "codigo": "std::vector<int> numeros = {1, 2, 3, 4, 5};\nfor (int num : numeros) {\n    std::cout << num << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir una función que verifique si un número está en un arreglo",
+        "codigo": "bool existeEnArreglo(int arr[], int tam, int num) {\n    for (int i = 0; i < tam; i++) {\n        if (arr[i] == num) return true;\n    }\n    return false;\n}"
+    },
+    {
+        "instruccion": "Definir una estructura llamada 'Libro' con los campos 'titulo' y 'autor'",
+        "codigo": "struct Libro {\n    std::string titulo;\n    std::string autor;\n};"
+    },
+    {
+        "instruccion": "Calcular el valor de la potencia 3^4",
+        "codigo": "#include <cmath>\ndouble resultado = pow(3, 4);"
+    },
+    {
+        "instruccion": "Crear una función que invierta una cadena de texto",
+        "codigo": "std::string invertirCadena(std::string texto) {\n    std::reverse(texto.begin(), texto.end());\n    return texto;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima los números del 1 al 100 y sustituya múltiplos de 3 por 'Fizz' y múltiplos de 5 por 'Buzz'",
+        "codigo": "for (int i = 1; i <= 100; i++) {\n    if (i % 3 == 0 && i % 5 == 0) std::cout << \"FizzBuzz\";\n    else if (i % 3 == 0) std::cout << \"Fizz\";\n    else if (i % 5 == 0) std::cout << \"Buzz\";\n    else std::cout << i;\n    std::cout << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que convierta un número decimal a binario",
+        "codigo": "std::string decimalABinario(int num) {\n    if (num == 0) return \"0\";\n    std::string binario = \"\";\n    while (num > 0) {\n        binario = std::to_string(num % 2) + binario;\n        num /= 2;\n    }\n    return binario;\n}"
+    },
+    {
+        "instruccion": "Definir una función que calcule la serie de Fibonacci hasta n términos",
+        "codigo": "void fibonacci(int n) {\n    int a = 0, b = 1, siguiente;\n    for (int i = 1; i <= n; i++) {\n        std::cout << a << \" \";\n        siguiente = a + b;\n        a = b;\n        b = siguiente;\n    }\n}"
+    },
+    {
+        "instruccion": "Escribir una función que calcule el MCD de dos números",
+        "codigo": "int mcd(int a, int b) {\n    while (b != 0) {\n        int temp = b;\n        b = a % b;\n        a = temp;\n    }\n    return a;\n}"
+    },
+    {
+        "instruccion": "Crear una función que convierta una cadena a minúsculas",
+        "codigo": "std::string aMinusculas(std::string texto) {\n    for (char &c : texto) {\n        c = tolower(c);\n    }\n    return texto;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo con base 10 y altura 5",
+        "codigo": "double base = 10.0, altura = 5.0;\ndouble area = (base * altura) / 2;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta minutos a horas y minutos",
+        "codigo": "int minutos = 125;\nint horas = minutos / 60;\nint minutos_restantes = minutos % 60;\nstd::cout << horas << \" horas y \" << minutos_restantes << \" minutos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un número decimal y devuelva su representación hexadecimal",
+        "codigo": "std::string decimalAHexadecimal(int num) {\n    std::stringstream ss;\n    ss << std::hex << num;\n    return ss.str();\n}"
+    },
+    {
+        "instruccion": "Imprimir los elementos de una matriz 3x3",
+        "codigo": "int matriz[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\nfor (int i = 0; i < 3; i++) {\n    for (int j = 0; j < 3; j++) {\n        std::cout << matriz[i][j] << \" \";\n    }\n    std::cout << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los números pares en un vector",
+        "codigo": "int sumaPares(const std::vector<int>& vec) {\n    int suma = 0;\n    for (int num : vec) {\n        if (num % 2 == 0) suma += num;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Definir una función que convierta una cadena a mayúsculas",
+        "codigo": "std::string aMayusculas(std::string texto) {\n    for (char &c : texto) {\n        c = toupper(c);\n    }\n    return texto;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que determine si un número es par o impar",
+        "codigo": "int num = 7;\nif (num % 2 == 0) {\n    std::cout << \"Es par\" << std::endl;\n} else {\n    std::cout << \"Es impar\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir una función que verifique si un número es múltiplo de 5",
+        "codigo": "bool esMultiploDeCinco(int num) { return num % 5 == 0; }"
+    },
+    {
+        "instruccion": "Calcular el área de un trapezoide con bases 8 y 5, y altura 4",
+        "codigo": "double baseMayor = 8.0, baseMenor = 5.0, altura = 4.0;\ndouble area = ((baseMayor + baseMenor) * altura) / 2;\nstd::cout << \"El área del trapezoide es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de los elementos de un vector de enteros",
+        "codigo": "double promedio(const std::vector<int>& vec) {\n    double suma = 0;\n    for (int num : vec) {\n        suma += num;\n    }\n    return suma / vec.size();\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que determine el número mayor entre tres números",
+        "codigo": "int a = 5, b = 10, c = 3;\nint mayor = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);\nstd::cout << \"El número mayor es: \" << mayor << std::endl;"
+    },
+    {
+        "instruccion": "Definir una función que devuelva el valor de un número elevado a la potencia n",
+        "codigo": "int potencia(int base, int exponente) {\n    int resultado = 1;\n    for (int i = 0; i < exponente; i++) {\n        resultado *= base;\n    }\n    return resultado;\n}"
+    },
+    {
+        "instruccion": "Crear un bucle que sume los números impares entre 1 y 50",
+        "codigo": "int suma = 0;\nfor (int i = 1; i <= 50; i += 2) { suma += i; }\nstd::cout << \"La suma de los impares es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Escribir una función que determine si una cadena es palíndromo ignorando espacios",
+        "codigo": "bool esPalindromoIgnorandoEspacios(std::string cadena) {\n    cadena.erase(remove(cadena.begin(), cadena.end(), ' '), cadena.end());\n    int inicio = 0, fin = cadena.size() - 1;\n    while (inicio < fin) {\n        if (cadena[inicio] != cadena[fin]) return false;\n        inicio++;\n        fin--;\n    }\n    return true;\n}"
+    },
+    {
+        "instruccion": "Crear una función que reciba un vector y devuelva el número de elementos mayores que 10",
+        "codigo": "int contarMayoresQueDiez(const std::vector<int>& vec) {\n    int contador = 0;\n    for (int num : vec) {\n        if (num > 10) contador++;\n    }\n    return contador;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que genere un número aleatorio entre 1 y 100",
+        "codigo": "#include <cstdlib>\n#include <ctime>\nsrand(time(0));\nint numeroAleatorio = rand() % 100 + 1;\nstd::cout << \"Número aleatorio: \" << numeroAleatorio << std::endl;"
+    },
+    {
+        "instruccion": "Calcular la media de tres notas de un estudiante",
+        "codigo": "double nota1 = 85.5, nota2 = 90.0, nota3 = 78.5;\ndouble media = (nota1 + nota2 + nota3) / 3;\nstd::cout << \"La media es: \" << media << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el número de dígitos de un número entero",
+        "codigo": "int contarDigitos(int num) {\n    int digitos = 0;\n    while (num != 0) {\n        digitos++;\n        num /= 10;\n    }\n    return digitos;\n}"
+    },
+    {
+        "instruccion": "Definir una función que devuelva el número de vocales en una cadena",
+        "codigo": "int contarVocales(std::string cadena) {\n    int vocales = 0;\n    for (char c : cadena) {\n        if (tolower(c) == 'a' || tolower(c) == 'e' || tolower(c) == 'i' || tolower(c) == 'o' || tolower(c) == 'u') {\n            vocales++;\n        }\n    }\n    return vocales;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el número de palabras en una cadena de texto",
+        "codigo": "int contarPalabras(std::string texto) {\n    std::istringstream stream(texto);\n    int palabras = 0;\n    std::string palabra;\n    while (stream >> palabra) {\n        palabras++;\n    }\n    return palabras;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que determine si un año es bisiesto",
+        "codigo": "int anio = 2020;\nif ((anio % 4 == 0 && anio % 100 != 0) || anio % 400 == 0) {\n    std::cout << \"El año es bisiesto\" << std::endl;\n} else {\n    std::cout << \"El año no es bisiesto\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Definir una función que devuelva el número de dígitos pares en un número entero",
+        "codigo": "int contarDigitosPares(int num) {\n    int pares = 0;\n    while (num != 0) {\n        if ((num % 10) % 2 == 0) pares++;\n        num /= 10;\n    }\n    return pares;\n}"
+    },
+    {
+        "instruccion": "Crear una función que verifique si una cadena contiene solo letras",
+        "codigo": "bool soloLetras(std::string cadena) {\n    for (char c : cadena) {\n        if (!isalpha(c)) return false;\n    }\n    return true;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima los números del 1 al 100, pero si es múltiplo de 3 imprime 'Fizz' y si es múltiplo de 5 imprime 'Buzz'",
+        "codigo": "for (int i = 1; i <= 100; i++) {\n    if (i % 3 == 0 && i % 5 == 0) std::cout << \"FizzBuzz\" << std::endl;\n    else if (i % 3 == 0) std::cout << \"Fizz\" << std::endl;\n    else if (i % 5 == 0) std::cout << \"Buzz\" << std::endl;\n    else std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Definir una función que cuente las vocales en una cadena",
+        "codigo": "int contarVocales(std::string texto) {\n    int contador = 0;\n    for (char c : texto) {\n        if (tolower(c) == 'a' || tolower(c) == 'e' || tolower(c) == 'i' || tolower(c) == 'o' || tolower(c) == 'u') {\n            contador++;\n        }\n    }\n    return contador;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el factorial de un número usando recursividad",
+        "codigo": "int factorial(int n) {\n    if (n <= 1) return 1;\n    return n * factorial(n - 1);\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un rombo con diagonales de 10 y 8",
+        "codigo": "double diagonalMayor = 10.0, diagonalMenor = 8.0;\ndouble area = (diagonalMayor * diagonalMenor) / 2;\nstd::cout << \"El área del rombo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Escribir una función que convierta un número de segundos a horas, minutos y segundos",
+        "codigo": "void convertirTiempo(int segundos) {\n    int horas = segundos / 3600;\n    segundos %= 3600;\n    int minutos = segundos / 60;\n    segundos %= 60;\n    std::cout << horas << \" horas, \" << minutos << \" minutos, \" << segundos << \" segundos\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que reciba una cadena y devuelva la misma cadena pero en orden inverso",
+        "codigo": "std::string invertir(std::string texto) {\n    std::reverse(texto.begin(), texto.end());\n    return texto;\n}"
+    },
+    {
+        "instruccion": "Imprimir la secuencia Fibonacci hasta el décimo término",
+        "codigo": "int a = 0, b = 1;\nstd::cout << a << \" \" << b << \" \";\nfor (int i = 3; i <= 10; i++) {\n    int siguiente = a + b;\n    std::cout << siguiente << \" \";\n    a = b;\n    b = siguiente;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Definir una función que reciba dos cadenas y verifique si son anagramas",
+        "codigo": "bool sonAnagramas(std::string str1, std::string str2) {\n    std::sort(str1.begin(), str1.end());\n    std::sort(str2.begin(), str2.end());\n    return str1 == str2;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor máximo de un vector de enteros",
+        "codigo": "int valorMaximo(const std::vector<int>& vec) {\n    return *std::max_element(vec.begin(), vec.end());\n}"
+    },
+    {
+        "instruccion": "Calcular la longitud de una hipotenusa dados los catetos 6 y 8",
+        "codigo": "#include <cmath>\ndouble cateto1 = 6.0, cateto2 = 8.0;\ndouble hipotenusa = sqrt(pow(cateto1, 2) + pow(cateto2, 2));\nstd::cout << \"La hipotenusa es: \" << hipotenusa << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que determine si un año es bisiesto",
+        "codigo": "bool esBisiesto(int anio) {\n    return (anio % 4 == 0 && anio % 100 != 0) || (anio % 400 == 0);\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta un número binario a decimal",
+        "codigo": "int binarioADecimal(std::string binario) {\n    int decimal = 0;\n    for (char bit : binario) {\n        decimal = decimal * 2 + (bit - '0');\n    }\n    return decimal;\n}"
+    },
+    {
+        "instruccion": "Crear un bucle que imprima los números del 1 al 10 en una sola línea",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Definir una función que convierta un número decimal a hexadecimal",
+        "codigo": "std::string decimalAHexadecimal(int num) {\n    std::stringstream ss;\n    ss << std::hex << num;\n    return ss.str();\n}"
+    },
+    {
+        "instruccion": "Calcular el promedio de las edades en un vector",
+        "codigo": "std::vector<int> edades = {23, 25, 30, 19, 40};\nint suma = 0;\nfor (int edad : edades) {\n    suma += edad;\n}\ndouble promedio = static_cast<double>(suma) / edades.size();\nstd::cout << \"El promedio de edades es: \" << promedio << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un arreglo de enteros y devuelva su mediana",
+        "codigo": "double calcularMediana(std::vector<int>& vec) {\n    std::sort(vec.begin(), vec.end());\n    int tam = vec.size();\n    return tam % 2 == 0 ? (vec[tam / 2 - 1] + vec[tam / 2]) / 2.0 : vec[tam / 2];\n}"
+    },
+    {
+        "instruccion": "Imprimir los números del 1 al 20, saltando de 2 en 2",
+        "codigo": "for (int i = 1; i <= 20; i += 2) {\n    std::cout << i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir una función que convierta kilómetros a millas",
+        "codigo": "double kilometrosAMillas(double km) {\n    return km * 0.621371;\n}"
+    },
+    {
+        "instruccion": "Crear una función que reciba dos números y devuelva su mínimo común múltiplo",
+        "codigo": "int mcm(int a, int b) {\n    int max = (a > b) ? a : b;\n    while (true) {\n        if (max % a == 0 && max % b == 0) return max;\n        max++;\n    }\n}"
+    },
+    {
+        "instruccion": "Declarar una variable entera llamada 'edad' e inicializarla en 21",
+        "codigo": "int edad = 21;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es negativo",
+        "codigo": "bool esNegativo(int num) { return num < 0; }"
+    },
+    {
+        "instruccion": "Calcular el doble de un número entero llamado 'numero'",
+        "codigo": "int numero = 10;\nint doble = numero * 2;\nstd::cout << \"El doble es: \" << doble << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los números del 1 al 5 en orden ascendente",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Definir una variable de tipo float llamada 'precio' e inicializarla con 19.99",
+        "codigo": "float precio = 19.99;"
+    },
+    {
+        "instruccion": "Crear un bucle que imprima 'Hola' cinco veces",
+        "codigo": "for (int i = 0; i < 5; i++) {\n    std::cout << \"Hola\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que sume los números del 1 al 100",
+        "codigo": "int suma = 0;\nfor (int i = 1; i <= 100; i++) {\n    suma += i;\n}\nstd::cout << \"La suma es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Definir un arreglo de 4 elementos enteros con los valores 10, 20, 30, y 40",
+        "codigo": "int arr[4] = {10, 20, 30, 40};"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor de un número multiplicado por 5",
+        "codigo": "int multiplicarPorCinco(int num) { return num * 5; }"
+    },
+    {
+        "instruccion": "Imprimir un mensaje de bienvenida",
+        "codigo": "std::cout << \"Bienvenido al programa\" << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo char llamada 'letra' con el valor 'A'",
+        "codigo": "char letra = 'A';"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es positivo",
+        "codigo": "bool esPositivo(int num) { return num > 0; }"
+    },
+    {
+        "instruccion": "Multiplicar dos números enteros 6 y 7 y mostrar el resultado",
+        "codigo": "int resultado = 6 * 7;\nstd::cout << \"El resultado es: \" << resultado << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el cuadrado de un número llamado 'x' e imprimir el resultado",
+        "codigo": "int x = 4;\nint cuadrado = x * x;\nstd::cout << \"El cuadrado es: \" << cuadrado << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que reste 10 de un número llamado 'valor'",
+        "codigo": "int valor = 25;\nvalor -= 10;\nstd::cout << \"El nuevo valor es: \" << valor << std::endl;"
+    },
+    {
+        "instruccion": "Crear un bucle que imprima los números pares entre 1 y 20",
+        "codigo": "for (int i = 2; i <= 20; i += 2) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Declarar una variable constante llamada 'TASA' con valor 0.15",
+        "codigo": "const double TASA = 0.15;"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule el área de un cuadrado con lado 7",
+        "codigo": "int lado = 7;\nint area = lado * lado;\nstd::cout << \"El área es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Programación en C++ es genial!'",
+        "codigo": "std::cout << \"Programación en C++ es genial!\" << std::endl;"
+    },
+    {
+        "instruccion": "Escribir una función que reste 5 de un número",
+        "codigo": "int restarCinco(int num) { return num - 5; }"
+    },
+    {
+        "instruccion": "Declarar una variable booleana llamada 'esValido' con valor verdadero",
+        "codigo": "bool esValido = true;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número",
+        "codigo": "int cuadrado(int num) { return num * num; }"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 5",
+        "codigo": "double radio = 5.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que multiplique dos números decimales",
+        "codigo": "double a = 3.5, b = 2.5;\ndouble producto = a * b;\nstd::cout << \"El producto es: \" << producto << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de dos números",
+        "codigo": "int suma(int a, int b) { return a + b; }"
+    },
+    {
+        "instruccion": "Definir una función que devuelva el valor absoluto de un número",
+        "codigo": "int valorAbsoluto(int num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que divida dos números enteros",
+        "codigo": "int a = 10, b = 2;\nint division = a / b;\nstd::cout << \"La división es: \" << division << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el doble de un número",
+        "codigo": "int doble(int num) { return num * 2; }"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo string llamada 'nombre' con valor 'Juan'",
+        "codigo": "std::string nombre = \"Juan\";"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule el cubo de un número llamado 'numero'",
+        "codigo": "int numero = 3;\nint cubo = numero * numero * numero;\nstd::cout << \"El cubo es: \" << cubo << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el triple de un número",
+        "codigo": "int triple(int num) { return num * 3; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 múltiplos de 3",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << 3 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta metros a centímetros",
+        "codigo": "double metros = 1.5;\ndouble centimetros = metros * 100;\nstd::cout << metros << \" metros es igual a \" << centimetros << \" centímetros\" << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable entera 'contador' e inicializarla en 0",
+        "codigo": "int contador = 0;"
+    },
+    {
+        "instruccion": "Crear un bucle que imprima los números del 10 al 1 en orden descendente",
+        "codigo": "for (int i = 10; i >= 1; i--) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir una función que convierta una temperatura de Fahrenheit a Celsius",
+        "codigo": "double fahrenheitACelsius(double f) { return (f - 32) * 5 / 9; }"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un círculo con radio 7",
+        "codigo": "double radio = 7.0;\ndouble perimetro = 2 * 3.1416 * radio;\nstd::cout << \"El perímetro del círculo es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los números pares del 2 al 10",
+        "codigo": "for (int i = 2; i <= 10; i += 2) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número flotante",
+        "codigo": "float valorAbsoluto(float num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Definir una variable bool llamada 'activo' e inicializarla en true",
+        "codigo": "bool activo = true;"
+    },
+    {
+        "instruccion": "Crear una función que sume dos números y devuelva el resultado",
+        "codigo": "int suma(int a, int b) { return a + b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que divida un número entre 2 y muestre el resultado",
+        "codigo": "int numero = 50;\nint resultado = numero / 2;\nstd::cout << \"La mitad es: \" << resultado << std::endl;"
+    },
+    {
+        "instruccion": "Declarar un arreglo de caracteres llamado 'letras' con los valores 'a', 'b', y 'c'",
+        "codigo": "char letras[] = {'a', 'b', 'c'};"
+    },
+    {
+        "instruccion": "Imprimir la palabra 'Hola' 3 veces usando un bucle",
+        "codigo": "for (int i = 0; i < 3; i++) {\n    std::cout << \"Hola\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir una función que reste un número a otro y devuelva el resultado",
+        "codigo": "int resta(int a, int b) { return a - b; }"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con un radio almacenado en la variable 'r'",
+        "codigo": "double r = 5.0;\ndouble area = 3.1416 * r * r;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir la palabra 'Fin' después de un bucle que imprima los números del 1 al 3",
+        "codigo": "for (int i = 1; i <= 3; i++) {\n    std::cout << i << std::endl;\n}\nstd::cout << \"Fin\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es mayor que 100",
+        "codigo": "bool esMayorQueCien(int num) { return num > 100; }"
+    },
+    {
+        "instruccion": "Escribir un programa que divida un número decimal entre 3 y muestre el resultado",
+        "codigo": "double numero = 9.75;\ndouble resultado = numero / 3;\nstd::cout << \"Resultado: \" << resultado << std::endl;"
+    },
+    {
+        "instruccion": "Declarar un vector de enteros llamado 'numeros' con los valores 1, 2, 3, 4, y 5",
+        "codigo": "std::vector<int> numeros = {1, 2, 3, 4, 5};"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de dos números enteros",
+        "codigo": "int suma(int a, int b) { return a + b; }"
+    },
+    {
+        "instruccion": "Definir una variable de tipo double llamada 'precio' e inicializarla en 9.99",
+        "codigo": "double precio = 9.99;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es impar",
+        "codigo": "bool esImpar(int num) { return num % 2 != 0; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 múltiplos de 4",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << 4 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo string llamada 'nombre' con el valor 'Carlos'",
+        "codigo": "std::string nombre = \"Carlos\";"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número flotante",
+        "codigo": "float cuadrado(float num) { return num * num; }"
+    },
+    {
+        "instruccion": "Calcular el promedio de tres notas almacenadas en las variables nota1, nota2 y nota3",
+        "codigo": "double nota1 = 85.5, nota2 = 90.0, nota3 = 78.5;\ndouble promedio = (nota1 + nota2 + nota3) / 3;\nstd::cout << \"El promedio es: \" << promedio << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir la palabra 'Hola Mundo' 10 veces",
+        "codigo": "for (int i = 0; i < 10; i++) {\n    std::cout << \"Hola Mundo\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es mayor que 10",
+        "codigo": "bool esMayorQueDiez(int num) { return num > 10; }"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un rectángulo con base 8 y altura 5",
+        "codigo": "int base = 8, altura = 5;\nint perimetro = 2 * (base + altura);\nstd::cout << \"El perímetro del rectángulo es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los números del 1 al 10 en una sola línea",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que determine si un número es divisible por 7",
+        "codigo": "int num = 14;\nif (num % 7 == 0) {\n    std::cout << \"El número es divisible por 7\" << std::endl;\n} else {\n    std::cout << \"El número no es divisible por 7\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los primeros n números naturales",
+        "codigo": "int sumaNaturales(int n) {\n    int suma = 0;\n    for (int i = 1; i <= n; i++) {\n        suma += i;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Declarar un arreglo de 5 elementos enteros e inicializar con valores consecutivos del 1 al 5",
+        "codigo": "int arr[5] = {1, 2, 3, 4, 5};"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule el valor absoluto de un número entero",
+        "codigo": "int num = -10;\nint absoluto = (num < 0) ? -num : num;\nstd::cout << \"El valor absoluto es: \" << absoluto << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la longitud de una cadena de texto",
+        "codigo": "int longitudCadena(std::string cadena) { return cadena.length(); }"
+    },
+    {
+        "instruccion": "Imprimir un mensaje de despedida al final del programa",
+        "codigo": "std::cout << \"Gracias por usar el programa. ¡Hasta luego!\" << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que multiplique todos los números del 1 al 5",
+        "codigo": "int producto = 1;\nfor (int i = 1; i <= 5; i++) {\n    producto *= i;\n}\nstd::cout << \"El producto es: \" << producto << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo double llamada 'altura' e inicializarla con el valor 1.75",
+        "codigo": "double altura = 1.75;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el módulo de dos números",
+        "codigo": "int modulo(int a, int b) { return a % b; }"
+    },
+    {
+        "instruccion": "Imprimir los números impares del 1 al 10",
+        "codigo": "for (int i = 1; i <= 10; i += 2) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que divida un número entre 4 y muestre el resultado",
+        "codigo": "int numero = 16;\nint resultado = numero / 4;\nstd::cout << \"Resultado: \" << resultado << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el menor de dos números enteros",
+        "codigo": "int menor(int a, int b) { return (a < b) ? a : b; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números de la serie de Fibonacci",
+        "codigo": "int a = 0, b = 1;\nstd::cout << a << \" \" << b << \" \";\nfor (int i = 3; i <= 10; i++) {\n    int siguiente = a + b;\n    std::cout << siguiente << \" \";\n    a = b;\n    b = siguiente;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta grados Celsius a Kelvin",
+        "codigo": "double celsius = 25.0;\ndouble kelvin = celsius + 273.15;\nstd::cout << \"Temperatura en Kelvin: \" << kelvin << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es divisible por 3 y 5",
+        "codigo": "bool esDivisiblePor3y5(int num) { return num % 3 == 0 && num % 5 == 0; }"
+    },
+    {
+        "instruccion": "Declarar un arreglo de caracteres con la palabra 'Hola'",
+        "codigo": "char saludo[] = {'H', 'o', 'l', 'a', '\\0'};"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio almacenado en una variable llamada 'radio'",
+        "codigo": "double radio = 4.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los números de 5 a 15 en una sola línea",
+        "codigo": "for (int i = 5; i <= 15; i++) {\n    std::cout << i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un número y devuelva su raíz cuadrada",
+        "codigo": "#include <cmath>\ndouble raizCuadrada(double num) { return sqrt(num); }"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule la suma de los números pares entre 1 y 100",
+        "codigo": "int suma = 0;\nfor (int i = 2; i <= 100; i += 2) { suma += i; }\nstd::cout << \"La suma de los pares es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo bool llamada 'esVerdadero' e inicializarla en false",
+        "codigo": "bool esVerdadero = false;"
+    },
+    {
+        "instruccion": "Crear una función que reciba dos números y devuelva su producto",
+        "codigo": "int producto(int a, int b) { return a * b; }"
+    },
+    {
+        "instruccion": "Imprimir la tabla de multiplicar del 7",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << \"7 * \" << i << \" = \" << 7 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que divida un número entre 2 si es par",
+        "codigo": "int num = 10;\nif (num % 2 == 0) {\n    int resultado = num / 2;\n    std::cout << \"El número dividido entre 2 es: \" << resultado << std::endl;\n} else {\n    std::cout << \"El número no es par\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo float llamada 'temperatura' con el valor 36.5",
+        "codigo": "float temperatura = 36.5;"
+    },
+    {
+        "instruccion": "Crear un bucle que imprima los números del 1 al 5 en orden inverso",
+        "codigo": "for (int i = 5; i >= 1; i--) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir una función que devuelva el valor absoluto de un número entero",
+        "codigo": "int valorAbsoluto(int num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Calcular el cubo de un número almacenado en la variable 'numero'",
+        "codigo": "int numero = 3;\nint cubo = numero * numero * numero;\nstd::cout << \"El cubo es: \" << cubo << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 3 elementos de un arreglo de enteros",
+        "codigo": "int arr[] = {10, 20, 30, 40, 50};\nfor (int i = 0; i < 3; i++) {\n    std::cout << arr[i] << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que reste 7 a un número llamado 'valor' si es mayor que 10",
+        "codigo": "int valor = 15;\nif (valor > 10) {\n    valor -= 7;\n}\nstd::cout << \"Nuevo valor: \" << valor << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si una cadena tiene al menos 5 caracteres",
+        "codigo": "bool tieneMinimoCincoCaracteres(std::string cadena) { return cadena.length() >= 5; }"
+    },
+    {
+        "instruccion": "Declarar un arreglo de 3 elementos flotantes e inicializar con valores 1.1, 2.2, y 3.3",
+        "codigo": "float arr[] = {1.1, 2.2, 3.3};"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el mayor de tres números enteros",
+        "codigo": "int mayor(int a, int b, int c) { return std::max(std::max(a, b), c); }"
+    },
+    {
+        "instruccion": "Imprimir los números del 10 al 1 en una sola línea",
+        "codigo": "for (int i = 10; i >= 1; i--) {\n    std::cout << i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que determine si un número es positivo, negativo o cero",
+        "codigo": "int num = -5;\nif (num > 0) {\n    std::cout << \"Positivo\" << std::endl;\n} else if (num < 0) {\n    std::cout << \"Negativo\" << std::endl;\n} else {\n    std::cout << \"Cero\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo char llamada 'letra' con el valor 'B'",
+        "codigo": "char letra = 'B';"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el doble de un número flotante",
+        "codigo": "float doble(float num) { return num * 2; }"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo con base 6 y altura 4",
+        "codigo": "int base = 6, altura = 4;\ndouble area = 0.5 * base * altura;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el menor de dos números enteros",
+        "codigo": "int menor(int a, int b) { return (a < b) ? a : b; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números de la serie de Fibonacci",
+        "codigo": "int a = 0, b = 1;\nstd::cout << a << \" \" << b << \" \";\nfor (int i = 3; i <= 10; i++) {\n    int siguiente = a + b;\n    std::cout << siguiente << \" \";\n    a = b;\n    b = siguiente;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta grados Celsius a Kelvin",
+        "codigo": "double celsius = 25.0;\ndouble kelvin = celsius + 273.15;\nstd::cout << \"Temperatura en Kelvin: \" << kelvin << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es divisible por 3 y 5",
+        "codigo": "bool esDivisiblePor3y5(int num) { return num % 3 == 0 && num % 5 == 0; }"
+    },
+    {
+        "instruccion": "Declarar un arreglo de caracteres con la palabra 'Hola'",
+        "codigo": "char saludo[] = {'H', 'o', 'l', 'a', '\\0'};"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio almacenado en una variable llamada 'radio'",
+        "codigo": "double radio = 4.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los números de 5 a 15 en una sola línea",
+        "codigo": "for (int i = 5; i <= 15; i++) {\n    std::cout << i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un número y devuelva su raíz cuadrada",
+        "codigo": "#include <cmath>\ndouble raizCuadrada(double num) { return sqrt(num); }"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule la suma de los números pares entre 1 y 100",
+        "codigo": "int suma = 0;\nfor (int i = 2; i <= 100; i += 2) { suma += i; }\nstd::cout << \"La suma de los pares es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo bool llamada 'esVerdadero' e inicializarla en false",
+        "codigo": "bool esVerdadero = false;"
+    },
+    {
+        "instruccion": "Crear una función que reciba dos números y devuelva su producto",
+        "codigo": "int producto(int a, int b) { return a * b; }"
+    },
+    {
+        "instruccion": "Imprimir la tabla de multiplicar del 7",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << \"7 * \" << i << \" = \" << 7 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que divida un número entre 2 si es par",
+        "codigo": "int num = 10;\nif (num % 2 == 0) {\n    int resultado = num / 2;\n    std::cout << \"El número dividido entre 2 es: \" << resultado << std::endl;\n} else {\n    std::cout << \"El número no es par\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo float llamada 'temperatura' con el valor 36.5",
+        "codigo": "float temperatura = 36.5;"
+    },
+    {
+        "instruccion": "Crear un bucle que imprima los números del 1 al 5 en orden inverso",
+        "codigo": "for (int i = 5; i >= 1; i--) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir una función que devuelva el valor absoluto de un número entero",
+        "codigo": "int valorAbsoluto(int num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Calcular el cubo de un número almacenado en la variable 'numero'",
+        "codigo": "int numero = 3;\nint cubo = numero * numero * numero;\nstd::cout << \"El cubo es: \" << cubo << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 3 elementos de un arreglo de enteros",
+        "codigo": "int arr[] = {10, 20, 30, 40, 50};\nfor (int i = 0; i < 3; i++) {\n    std::cout << arr[i] << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que reste 7 a un número llamado 'valor' si es mayor que 10",
+        "codigo": "int valor = 15;\nif (valor > 10) {\n    valor -= 7;\n}\nstd::cout << \"Nuevo valor: \" << valor << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si una cadena tiene al menos 5 caracteres",
+        "codigo": "bool tieneMinimoCincoCaracteres(std::string cadena) { return cadena.length() >= 5; }"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número entero",
+        "codigo": "int cuadrado(int num) { return num * num; }"
+    },
+    {
+        "instruccion": "Imprimir los números del 1 al 10 en orden ascendente",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule el área de un triángulo con base 12 y altura 6",
+        "codigo": "double base = 12.0, altura = 6.0;\ndouble area = (base * altura) / 2;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los dígitos de un número entero",
+        "codigo": "int sumaDigitos(int num) {\n    int suma = 0;\n    while (num != 0) {\n        suma += num % 10;\n        num /= 10;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Declarar un arreglo de enteros con los números 5, 10, 15, y 20",
+        "codigo": "int arr[] = {5, 10, 15, 20};"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima el alfabeto en letras minúsculas",
+        "codigo": "for (char c = 'a'; c <= 'z'; c++) {\n    std::cout << c << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un rectángulo con largo 8 y ancho 3",
+        "codigo": "int largo = 8, ancho = 3;\nint area = largo * ancho;\nstd::cout << \"El área del rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es divisible por 2",
+        "codigo": "bool esDivisiblePorDos(int num) { return num % 2 == 0; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números pares",
+        "codigo": "for (int i = 2; i <= 20; i += 2) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Definir una variable de tipo int llamada 'cantidad' y asignarle el valor 100",
+        "codigo": "int cantidad = 100;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el número de elementos en un arreglo de enteros",
+        "codigo": "int contarElementos(int arr[], int tam) { return tam; }"
+    },
+    {
+        "instruccion": "Escribir un programa que reste 5 de una variable llamada 'total' si su valor es mayor a 50",
+        "codigo": "int total = 60;\nif (total > 50) {\n    total -= 5;\n}\nstd::cout << \"Nuevo total: \" << total << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la longitud de una cadena de texto",
+        "codigo": "int longitudCadena(std::string cadena) { return cadena.length(); }"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Final del Programa' al finalizar el código",
+        "codigo": "std::cout << \"Final del Programa\" << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que multiplique todos los números del 1 al 4",
+        "codigo": "int producto = 1;\nfor (int i = 1; i <= 4; i++) {\n    producto *= i;\n}\nstd::cout << \"El producto es: \" << producto << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo double llamada 'distancia' e inicializarla con el valor 12.5",
+        "codigo": "double distancia = 12.5;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si una cadena es vacía",
+        "codigo": "bool esCadenaVacia(std::string cadena) { return cadena.empty(); }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 caracteres de una cadena de texto",
+        "codigo": "std::string texto = \"Hola, mundo\";\nfor (int i = 0; i < 5; i++) {\n    std::cout << texto[i];\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta grados Celsius a Fahrenheit",
+        "codigo": "double celsius = 25.0;\ndouble fahrenheit = (celsius * 9/5) + 32;\nstd::cout << \"Temperatura en Fahrenheit: \" << fahrenheit << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los números del 1 al 10 en una sola línea separados por comas",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    if (i > 1) std::cout << \", \";\n    std::cout << i;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de dos números enteros",
+        "codigo": "int suma(int a, int b) { return a + b; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 números negativos",
+        "codigo": "for (int i = -1; i >= -5; i--) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que multiplique dos números decimales",
+        "codigo": "double a = 3.5, b = 2.5;\ndouble producto = a * b;\nstd::cout << \"El producto es: \" << producto << std::endl;"
+    },
+    {
+        "instruccion": "Definir una variable de tipo string llamada 'ciudad' con valor 'Madrid'",
+        "codigo": "std::string ciudad = \"Madrid\";"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el triple de un número entero",
+        "codigo": "int triple(int num) { return num * 3; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 6 números pares",
+        "codigo": "for (int i = 2; i <= 12; i += 2) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un cuadrado con lado 9",
+        "codigo": "int lado = 9;\nint area = lado * lado;\nstd::cout << \"El área del cuadrado es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la diferencia entre dos números",
+        "codigo": "int diferencia(int a, int b) { return a - b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que divida un número por otro",
+        "codigo": "int a = 20, b = 5;\nint resultado = a / b;\nstd::cout << \"El resultado de la división es: \" << resultado << std::endl;"
+    },
+    {
+        "instruccion": "Declarar un arreglo de tipo float con los valores 1.2, 2.3, y 3.4",
+        "codigo": "float arr[] = {1.2, 2.3, 3.4};"
+    },
+    {
+        "instruccion": "Imprimir un saludo personalizado usando una variable 'nombre'",
+        "codigo": "std::string nombre = \"Juan\";\nstd::cout << \"Hola, \" << nombre << \"!\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es menor que 10",
+        "codigo": "bool esMenorQueDiez(int num) { return num < 10; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 4 múltiplos de 7",
+        "codigo": "for (int i = 1; i <= 4; i++) {\n    std::cout << 7 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que sume 8 a una variable 'x'",
+        "codigo": "int x = 10;\nx += 8;\nstd::cout << \"Nuevo valor de x: \" << x << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la mitad de un número entero",
+        "codigo": "int mitad(int num) { return num / 2; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 caracteres de una cadena 'mensaje'",
+        "codigo": "std::string mensaje = \"Bienvenido\";\nfor (int i = 0; i < 5; i++) {\n    std::cout << mensaje[i];\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima un mensaje de error",
+        "codigo": "std::cout << \"Error: No se pudo completar la operación\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo con base 5 y altura 12",
+        "codigo": "int base = 5, altura = 12;\ndouble area = (base * altura) / 2.0;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable constante llamada 'PI' con valor 3.1416",
+        "codigo": "const double PI = 3.1416;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es múltiplo de 10",
+        "codigo": "bool esMultiploDeDiez(int num) { return num % 10 == 0; }"
+    },
+    {
+        "instruccion": "Crear una función que reciba dos números y devuelva su cociente",
+        "codigo": "double cociente(double a, double b) { return a / b; }"
+    },
+    {
+        "instruccion": "Imprimir los números del 1 al 20 en orden ascendente",
+        "codigo": "for (int i = 1; i <= 20; i++) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta horas a minutos",
+        "codigo": "int horas = 2;\nint minutos = horas * 60;\nstd::cout << horas << \" horas son \" << minutos << \" minutos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es par",
+        "codigo": "bool esPar(int num) { return num % 2 == 0; }"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cubo con lado de longitud 5",
+        "codigo": "int lado = 5;\nint volumen = lado * lado * lado;\nstd::cout << \"El volumen del cubo es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable entera llamada 'edad' con valor 30",
+        "codigo": "int edad = 30;"
+    },
+    {
+        "instruccion": "Escribir un programa que reste 3 a un número llamado 'valor'",
+        "codigo": "int valor = 10;\nvalor -= 3;\nstd::cout << \"Nuevo valor: \" << valor << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un número y devuelva su valor absoluto",
+        "codigo": "int valorAbsoluto(int num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 números de la serie de Fibonacci",
+        "codigo": "int a = 0, b = 1;\nstd::cout << a << \" \" << b << \" \";\nfor (int i = 3; i <= 5; i++) {\n    int siguiente = a + b;\n    std::cout << siguiente << \" \";\n    a = b;\n    b = siguiente;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear un bucle que imprima los números del 5 al 15 en orden ascendente",
+        "codigo": "for (int i = 5; i <= 15; i++) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 10",
+        "codigo": "double radio = 10.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable bool llamada 'encendido' e inicializarla en true",
+        "codigo": "bool encendido = true;"
+    },
+    {
+        "instruccion": "Imprimir un mensaje de éxito al completar el programa",
+        "codigo": "std::cout << \"Operación completada exitosamente!\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que sume los elementos de un arreglo de enteros",
+        "codigo": "int sumaArreglo(int arr[], int tam) {\n    int suma = 0;\n    for (int i = 0; i < tam; i++) {\n        suma += arr[i];\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima los primeros 10 múltiplos de 5",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 5 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un rectángulo con base 7 y altura 4",
+        "codigo": "int base = 7, altura = 4;\nint area = base * altura;\nstd::cout << \"El área del rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que multiplique tres números enteros",
+        "codigo": "int multiplicarTres(int a, int b, int c) { return a * b * c; }"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo double llamada 'salario' con valor 1200.50",
+        "codigo": "double salario = 1200.50;"
+    },
+    {
+        "instruccion": "Escribir un programa que divida un número entre 5",
+        "codigo": "int num = 25;\nint resultado = num / 5;\nstd::cout << \"Resultado: \" << resultado << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que determine si un número es positivo",
+        "codigo": "bool esPositivo(int num) { return num > 0; }"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Bienvenido a C++' tres veces",
+        "codigo": "for (int i = 0; i < 3; i++) {\n    std::cout << \"Bienvenido a C++\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el residuo de dividir dos números enteros",
+        "codigo": "int residuo(int a, int b) { return a % b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilogramos a gramos",
+        "codigo": "double kilogramos = 2.5;\ndouble gramos = kilogramos * 1000;\nstd::cout << kilogramos << \" kilogramos son \" << gramos << \" gramos\" << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los números impares del 1 al 15",
+        "codigo": "for (int i = 1; i <= 15; i += 2) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Declarar una variable llamada 'nombre' de tipo string e inicializarla en 'Ana'",
+        "codigo": "std::string nombre = \"Ana\";"
+    },
+    {
+        "instruccion": "Crear una función que determine si un número es impar",
+        "codigo": "bool esImpar(int num) { return num % 2 != 0; }"
+    },
+    {
+        "instruccion": "Escribir un programa que reste 20 a un número entero",
+        "codigo": "int numero = 100;\nnumero -= 20;\nstd::cout << \"Nuevo valor: \" << numero << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un cuadrado con lado 6",
+        "codigo": "int lado = 6;\nint perimetro = 4 * lado;\nstd::cout << \"El perímetro del cuadrado es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir un mensaje que diga 'Finalizado' después de un bucle",
+        "codigo": "for (int i = 1; i <= 3; i++) {\n    std::cout << i << std::endl;\n}\nstd::cout << \"Finalizado\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta un número de metros a centímetros",
+        "codigo": "int metrosACentimetros(int metros) { return metros * 100; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números múltiplos de 4",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 4 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es mayor que 50",
+        "codigo": "bool esMayorQueCincuenta(int num) { return num > 50; }"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima un mensaje de advertencia",
+        "codigo": "std::cout << \"Advertencia: Verifique sus datos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cilindro con radio 3 y altura 10",
+        "codigo": "#include <cmath>\ndouble radio = 3.0, altura = 10.0;\ndouble volumen = 3.1416 * pow(radio, 2) * altura;\nstd::cout << \"El volumen del cilindro es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable constante llamada 'IVA' con valor 0.16",
+        "codigo": "const double IVA = 0.16;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor de un número elevado al cuadrado",
+        "codigo": "int cuadrado(int num) { return num * num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule el cuadrado de 12",
+        "codigo": "int num = 12;\nint cuadrado = num * num;\nstd::cout << \"El cuadrado es: \" << cuadrado << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 8 múltiplos de 6",
+        "codigo": "for (int i = 1; i <= 8; i++) {\n    std::cout << 6 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que convierta días a horas",
+        "codigo": "int diasAHoras(int dias) { return dias * 24; }"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo bool llamada 'esCorrecto' e inicializarla en false",
+        "codigo": "bool esCorrecto = false;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los primeros n números naturales",
+        "codigo": "int sumaNaturales(int n) {\n    int suma = 0;\n    for (int i = 1; i <= n; i++) {\n        suma += i;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Imprimir los números del 1 al 5 en una sola línea separados por espacios",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo equilátero con lado de 6",
+        "codigo": "#include <cmath>\ndouble lado = 6.0;\ndouble area = (sqrt(3) / 4) * lado * lado;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta un número de horas a minutos",
+        "codigo": "int horasAMinutos(int horas) { return horas * 60; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 8",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 8 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que reste 15 de un número si es mayor a 100",
+        "codigo": "int numero = 120;\nif (numero > 100) {\n    numero -= 15;\n}\nstd::cout << \"Nuevo valor: \" << numero << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de una esfera con radio 5",
+        "codigo": "#include <cmath>\ndouble radio = 5.0;\ndouble volumen = (4.0 / 3) * 3.1416 * pow(radio, 3);\nstd::cout << \"El volumen de la esfera es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de la diferencia entre dos números",
+        "codigo": "int cuadradoDiferencia(int a, int b) {\n    int diferencia = a - b;\n    return diferencia * diferencia;\n}"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Proceso completado' al final del programa",
+        "codigo": "std::cout << \"Proceso completado\" << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que multiplique 3 números y muestre el resultado",
+        "codigo": "int a = 2, b = 3, c = 4;\nint resultado = a * b * c;\nstd::cout << \"El resultado de la multiplicación es: \" << resultado << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable float llamada 'precio' con valor 99.99",
+        "codigo": "float precio = 99.99;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es múltiplo de 4",
+        "codigo": "bool esMultiploDeCuatro(int num) { return num % 4 == 0; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 números naturales",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un paralelogramo con base 10 y altura 7",
+        "codigo": "int base = 10, altura = 7;\nint area = base * altura;\nstd::cout << \"El área del paralelogramo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta metros cuadrados a centímetros cuadrados",
+        "codigo": "int metrosCuadradosACentimetrosCuadrados(int metrosCuadrados) { return metrosCuadrados * 10000; }"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima la suma de los números del 1 al 10",
+        "codigo": "int suma = 0;\nfor (int i = 1; i <= 10; i++) {\n    suma += i;\n}\nstd::cout << \"La suma es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir un mensaje de bienvenida al inicio del programa",
+        "codigo": "std::cout << \"Bienvenido al programa\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el cubo de un número almacenado en la variable 'num'",
+        "codigo": "int num = 5;\nint cubo = num * num * num;\nstd::cout << \"El cubo es: \" << cubo << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba dos números y devuelva el menor",
+        "codigo": "int menor(int a, int b) { return (a < b) ? a : b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta un número de segundos a minutos",
+        "codigo": "int segundos = 300;\nint minutos = segundos / 60;\nstd::cout << segundos << \" segundos son \" << minutos << \" minutos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número flotante",
+        "codigo": "float valorAbsoluto(float num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Imprimir los números del 10 al 1 en orden descendente",
+        "codigo": "for (int i = 10; i >= 1; i--) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que sume los primeros 10 números pares",
+        "codigo": "int suma = 0;\nfor (int i = 2; i <= 20; i += 2) {\n    suma += i;\n}\nstd::cout << \"La suma de los primeros 10 pares es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio almacenado en una variable 'r'",
+        "codigo": "double r = 7.0;\ndouble area = 3.1416 * r * r;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un número y devuelva su triple",
+        "codigo": "int triple(int num) { return num * 3; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 números divisibles por 3",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << 3 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta días a horas",
+        "codigo": "int dias = 3;\nint horas = dias * 24;\nstd::cout << dias << \" días son \" << horas << \" horas\" << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable constante llamada 'GRAVEDAD' con valor 9.8",
+        "codigo": "const double GRAVEDAD = 9.8;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de tres números enteros",
+        "codigo": "double promedio(int a, int b, int c) { return (a + b + c) / 3.0; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 caracteres de una cadena llamada 'texto'",
+        "codigo": "std::string texto = \"Hola Mundo\";\nfor (int i = 0; i < 5; i++) {\n    std::cout << texto[i];\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima la tabla de multiplicar del 9",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << \"9 * \" << i << \" = \" << 9 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un rectángulo con largo 8 y ancho 3",
+        "codigo": "int largo = 8, ancho = 3;\nint perimetro = 2 * (largo + ancho);\nstd::cout << \"El perímetro del rectángulo es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor de un número al cubo",
+        "codigo": "int cubo(int num) { return num * num * num; }"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Error: Operación fallida' si una operación no es exitosa",
+        "codigo": "bool exito = false;\nif (!exito) {\n    std::cout << \"Error: Operación fallida\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que sume tres números decimales",
+        "codigo": "double a = 5.5, b = 3.2, c = 8.1;\ndouble suma = a + b + c;\nstd::cout << \"La suma es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo char llamada 'inicial' y asignarle el valor 'J'",
+        "codigo": "char inicial = 'J';"
+    },
+    {
+        "instruccion": "Crear una función que convierta litros a mililitros",
+        "codigo": "int litrosAMililitros(int litros) { return litros * 1000; }"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cono con radio 4 y altura 9",
+        "codigo": "#include <cmath>\ndouble radio = 4.0, altura = 9.0;\ndouble volumen = (3.1416 * pow(radio, 2) * altura) / 3;\nstd::cout << \"El volumen del cono es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir un mensaje de confirmación al finalizar una tarea",
+        "codigo": "std::cout << \"Tarea completada con éxito\" << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule la suma de los dígitos de un número de tres cifras",
+        "codigo": "int numero = 123;\nint suma = (numero / 100) + ((numero / 10) % 10) + (numero % 10);\nstd::cout << \"La suma de los dígitos es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el doble de un número",
+        "codigo": "int doble(int num) { return num * 2; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números impares",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << (2 * i - 1) << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta euros a dólares",
+        "codigo": "double euros = 50.0;\ndouble tasaConversion = 1.2;\ndouble dolares = euros * tasaConversion;\nstd::cout << euros << \" euros son \" << dolares << \" dólares\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un número y devuelva verdadero si es múltiplo de 3",
+        "codigo": "bool esMultiploDeTres(int num) { return num % 3 == 0; }"
+    },
+    {
+        "instruccion": "Calcular el volumen de un prisma rectangular con largo 5, ancho 3, y altura 10",
+        "codigo": "int largo = 5, ancho = 3, altura = 10;\nint volumen = largo * ancho * altura;\nstd::cout << \"El volumen del prisma es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 2 en una sola línea",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 2 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba una temperatura en Fahrenheit y la convierta a Celsius",
+        "codigo": "double fahrenheitACelsius(double f) { return (f - 32) * 5 / 9; }"
+    },
+    {
+        "instruccion": "Declarar una variable entera llamada 'contador' y asignarle el valor 0",
+        "codigo": "int contador = 0;"
+    },
+    {
+        "instruccion": "Escribir un programa que multiplique un número por sí mismo tres veces",
+        "codigo": "int num = 4;\nint resultado = num * num * num;\nstd::cout << \"El resultado es: \" << resultado << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Procesando' cada segundo en un bucle durante 5 segundos",
+        "codigo": "#include <thread>\nfor (int i = 0; i < 5; i++) {\n    std::cout << \"Procesando\" << std::endl;\n    std::this_thread::sleep_for(std::chrono::seconds(1));\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los primeros n números pares",
+        "codigo": "int sumaPares(int n) {\n    int suma = 0;\n    for (int i = 1; i <= n; i++) {\n        suma += 2 * i;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima el abecedario en mayúsculas",
+        "codigo": "for (char c = 'A'; c <= 'Z'; c++) {\n    std::cout << c << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un trapecio con bases 10 y 7, y altura 4",
+        "codigo": "double baseMayor = 10.0, baseMenor = 7.0, altura = 4.0;\ndouble area = ((baseMayor + baseMenor) * altura) / 2;\nstd::cout << \"El área del trapecio es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba una cantidad de millas y la convierta a kilómetros",
+        "codigo": "double millasAKilometros(double millas) { return millas * 1.60934; }"
+    },
+    {
+        "instruccion": "Imprimir un mensaje de error si una variable llamada 'estado' es falsa",
+        "codigo": "bool estado = false;\nif (!estado) {\n    std::cout << \"Error: Estado no válido\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que divida un número por 3 si es divisible por 3",
+        "codigo": "int num = 9;\nif (num % 3 == 0) {\n    int resultado = num / 3;\n    std::cout << \"El resultado es: \" << resultado << std::endl;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un rombo con diagonales de 6 y 8",
+        "codigo": "double diagonalMayor = 8.0, diagonalMenor = 6.0;\ndouble area = (diagonalMayor * diagonalMenor) / 2;\nstd::cout << \"El área del rombo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el producto de todos los elementos en un arreglo de enteros",
+        "codigo": "int productoArreglo(int arr[], int tam) {\n    int producto = 1;\n    for (int i = 0; i < tam; i++) {\n        producto *= arr[i];\n    }\n    return producto;\n}"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 múltiplos de 9 en una sola línea",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << 9 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si una cadena tiene exactamente 10 caracteres",
+        "codigo": "bool tieneDiezCaracteres(std::string cadena) { return cadena.length() == 10; }"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor máximo entre tres números enteros",
+        "codigo": "int maximo(int a, int b, int c) { return std::max(a, std::max(b, c)); }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 5",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 5 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta una cantidad en gramos a kilogramos",
+        "codigo": "double gramos = 5000;\ndouble kilogramos = gramos / 1000;\nstd::cout << gramos << \" gramos son \" << kilogramos << \" kilogramos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la mitad de un número entero",
+        "codigo": "int mitad(int num) { return num / 2; }"
+    },
+    {
+        "instruccion": "Calcular el área de un pentágono regular con lado 5 y apotema 3.5",
+        "codigo": "double lado = 5.0, apotema = 3.5;\ndouble area = (5 * lado * apotema) / 2;\nstd::cout << \"El área del pentágono es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los números del 1 al 10, cada uno seguido por un signo de exclamación",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << i << \"! \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los elementos de un vector de enteros",
+        "codigo": "int sumaVector(const std::vector<int>& vec) {\n    int suma = 0;\n    for (int num : vec) {\n        suma += num;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo string llamada 'direccion' con el valor 'Calle 123'",
+        "codigo": "std::string direccion = \"Calle 123\";"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule la potencia de 2 elevada a la 5",
+        "codigo": "#include <cmath>\nint base = 2, exponente = 5;\nint resultado = pow(base, exponente);\nstd::cout << \"2 elevado a la 5 es: \" << resultado << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta kilómetros por hora a metros por segundo",
+        "codigo": "double kmhAMs(double kmh) { return kmh / 3.6; }"
+    },
+    {
+        "instruccion": "Imprimir los números pares del 2 al 20",
+        "codigo": "for (int i = 2; i <= 20; i += 2) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que determine si un número es negativo",
+        "codigo": "bool esNegativo(int num) { return num < 0; }"
+    },
+    {
+        "instruccion": "Calcular el área de un hexágono regular con lado 6 y apotema 5.2",
+        "codigo": "double lado = 6.0, apotema = 5.2;\ndouble area = (6 * lado * apotema) / 2;\nstd::cout << \"El área del hexágono es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 múltiplos de 12 en una sola línea",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << 12 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es mayor que 100",
+        "codigo": "bool esMayorQueCien(int num) { return num > 100; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta pies a metros",
+        "codigo": "double pies = 10;\ndouble metros = pies * 0.3048;\nstd::cout << pies << \" pies son \" << metros << \" metros\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un número y devuelva su cuadrado",
+        "codigo": "int cuadrado(int num) { return num * num; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números en orden inverso, del 10 al 1",
+        "codigo": "for (int i = 10; i >= 1; i--) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cilindro con radio 6 y altura 15",
+        "codigo": "#include <cmath>\ndouble radio = 6.0, altura = 15.0;\ndouble volumen = 3.1416 * pow(radio, 2) * altura;\nstd::cout << \"El volumen del cilindro es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima el mensaje 'Operación completada' después de una tarea",
+        "codigo": "std::cout << \"Operación completada\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el número de caracteres en una cadena",
+        "codigo": "int longitudCadena(std::string cadena) { return cadena.length(); }"
+    },
+    {
+        "instruccion": "Imprimir los números del 1 al 15 en orden ascendente",
+        "codigo": "for (int i = 1; i <= 15; i++) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta minutos a horas",
+        "codigo": "int minutos = 120;\ndouble horas = minutos / 60.0;\nstd::cout << minutos << \" minutos son \" << horas << \" horas\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es múltiplo de 5",
+        "codigo": "bool esMultiploDeCinco(int num) { return num % 5 == 0; }"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo con base 10 y altura 5",
+        "codigo": "double base = 10.0, altura = 5.0;\ndouble area = (base * altura) / 2;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 7 múltiplos de 7",
+        "codigo": "for (int i = 1; i <= 7; i++) {\n    std::cout << 7 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que reciba dos números y devuelva su resta",
+        "codigo": "int resta(int a, int b) { return a - b; }"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo bool llamada 'activo' e inicializarla en true",
+        "codigo": "bool activo = true;"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima un mensaje de saludo al usuario",
+        "codigo": "std::cout << \"Hola, usuario! Bienvenido al programa.\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de una pirámide con base cuadrada de lado 4 y altura 10",
+        "codigo": "double lado = 4.0, altura = 10.0;\ndouble volumen = (pow(lado, 2) * altura) / 3;\nstd::cout << \"El volumen de la pirámide es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si una cadena es vacía",
+        "codigo": "bool esVacia(std::string cadena) { return cadena.empty(); }"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Carga completa' al final del programa",
+        "codigo": "std::cout << \"Carga completa\" << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta litros a galones",
+        "codigo": "double litros = 3.0;\ndouble galones = litros * 0.264172;\nstd::cout << litros << \" litros son \" << galones << \" galones\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de una lista de números enteros",
+        "codigo": "double promedio(const std::vector<int>& numeros) {\n    int suma = 0;\n    for (int num : numeros) {\n        suma += num;\n    }\n    return static_cast<double>(suma) / numeros.size();\n}"
+    },
+    {
+        "instruccion": "Imprimir un mensaje de confirmación de guardado",
+        "codigo": "std::cout << \"Datos guardados correctamente\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un triángulo equilátero con lado 7",
+        "codigo": "int lado = 7;\nint perimetro = 3 * lado;\nstd::cout << \"El perímetro del triángulo es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta un valor de metros a milímetros",
+        "codigo": "int metrosAMilimetros(int metros) { return metros * 1000; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 múltiplos de 10 en una sola línea",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << 10 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los dígitos de un número",
+        "codigo": "int sumaDigitos(int num) {\n    int suma = 0;\n    while (num > 0) {\n        suma += num % 10;\n        num /= 10;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo rectángulo con catetos 3 y 4",
+        "codigo": "double cateto1 = 3.0, cateto2 = 4.0;\ndouble area = (cateto1 * cateto2) / 2;\nstd::cout << \"El área del triángulo rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta un valor en días a horas",
+        "codigo": "int diasAHoras(int dias) { return dias * 24; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 3 en una sola línea",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 3 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta pulgadas a centímetros",
+        "codigo": "double pulgadas = 12.0;\ndouble centimetros = pulgadas * 2.54;\nstd::cout << pulgadas << \" pulgadas son \" << centimetros << \" centímetros\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es impar",
+        "codigo": "bool esImpar(int num) { return num % 2 != 0; }"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 8",
+        "codigo": "double radio = 8.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los números impares del 1 al 15",
+        "codigo": "for (int i = 1; i <= 15; i += 2) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que reciba dos números y devuelva su producto",
+        "codigo": "int producto(int a, int b) { return a * b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilogramos a libras",
+        "codigo": "double kg = 5.0;\ndouble libras = kg * 2.20462;\nstd::cout << kg << \" kilogramos son \" << libras << \" libras\" << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 6 números de la serie de Fibonacci",
+        "codigo": "int a = 0, b = 1;\nstd::cout << a << \" \" << b << \" \";\nfor (int i = 3; i <= 6; i++) {\n    int siguiente = a + b;\n    std::cout << siguiente << \" \";\n    a = b;\n    b = siguiente;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los cuadrados de los primeros n números",
+        "codigo": "int sumaCuadrados(int n) {\n    int suma = 0;\n    for (int i = 1; i <= n; i++) {\n        suma += i * i;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un rectángulo con largo 10 y ancho 4",
+        "codigo": "int largo = 10, ancho = 4;\nint area = largo * ancho;\nstd::cout << \"El área del rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir un mensaje de advertencia si una variable llamada 'estado' es falsa",
+        "codigo": "bool estado = false;\nif (!estado) {\n    std::cout << \"Advertencia: Verifique el estado\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cubo de un número entero",
+        "codigo": "int cubo(int num) { return num * num * num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta una temperatura en Celsius a Fahrenheit",
+        "codigo": "double celsius = 25.0;\ndouble fahrenheit = (celsius * 9/5) + 32;\nstd::cout << \"Temperatura en Fahrenheit: \" << fahrenheit << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 números naturales en una sola línea",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es positivo",
+        "codigo": "bool esPositivo(int num) { return num > 0; }"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cubo con lado de longitud 3",
+        "codigo": "int lado = 3;\nint volumen = lado * lado * lado;\nstd::cout << \"El volumen del cubo es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta horas a segundos",
+        "codigo": "int horasASegundos(int horas) { return horas * 3600; }"
+    },
+    {
+        "instruccion": "Escribir un programa que multiplique dos números y muestre el resultado",
+        "codigo": "int a = 7, b = 9;\nint resultado = a * b;\nstd::cout << \"El resultado es: \" << resultado << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 caracteres de una cadena llamada 'mensaje'",
+        "codigo": "std::string mensaje = \"Hola Mundo\";\nfor (int i = 0; i < 5; i++) {\n    std::cout << mensaje[i];\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de tres números",
+        "codigo": "double promedio(double a, double b, double c) { return (a + b + c) / 3.0; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números impares",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << (2 * i - 1) << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta litros a mililitros",
+        "codigo": "double litros = 2.5;\ndouble mililitros = litros * 1000;\nstd::cout << litros << \" litros son \" << mililitros << \" mililitros\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la raíz cuadrada de un número",
+        "codigo": "#include <cmath>\ndouble raizCuadrada(double num) { return sqrt(num); }"
+    },
+    {
+        "instruccion": "Calcular el área de un rectángulo con largo 12 y ancho 8",
+        "codigo": "int largo = 12, ancho = 8;\nint area = largo * ancho;\nstd::cout << \"El área del rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 múltiplos de 4",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << 4 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los primeros n números impares",
+        "codigo": "int sumaImpares(int n) {\n    int suma = 0;\n    for (int i = 1; i <= n; i++) {\n        suma += 2 * i - 1;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Declarar una variable de tipo float llamada 'peso' con valor 65.5",
+        "codigo": "float peso = 65.5;"
+    },
+    {
+        "instruccion": "Escribir un programa que reste 10 a un número si es mayor que 50",
+        "codigo": "int numero = 60;\nif (numero > 50) {\n    numero -= 10;\n}\nstd::cout << \"Nuevo valor: \" << numero << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un rombo con diagonales 9 y 12",
+        "codigo": "double diagonalMayor = 12.0, diagonalMenor = 9.0;\ndouble area = (diagonalMayor * diagonalMenor) / 2;\nstd::cout << \"El área del rombo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el número absoluto de un número entero",
+        "codigo": "int valorAbsoluto(int num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Tarea finalizada' después de completar un proceso",
+        "codigo": "std::cout << \"Tarea finalizada\" << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta millas a kilómetros",
+        "codigo": "double millas = 10.0;\ndouble kilometros = millas * 1.60934;\nstd::cout << millas << \" millas son \" << kilometros << \" kilómetros\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los dígitos de un número",
+        "codigo": "int sumaDigitos(int num) {\n    int suma = 0;\n    while (num > 0) {\n        suma += num % 10;\n        num /= 10;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Imprimir los primeros 6 números de la serie de Fibonacci",
+        "codigo": "int a = 0, b = 1;\nstd::cout << a << \" \" << b << \" \";\nfor (int i = 3; i <= 6; i++) {\n    int siguiente = a + b;\n    std::cout << siguiente << \" \";\n    a = b;\n    b = siguiente;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número flotante",
+        "codigo": "float valorAbsoluto(float num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Calcular el volumen de una esfera con radio 5",
+        "codigo": "#include <cmath>\ndouble radio = 5.0;\ndouble volumen = (4.0 / 3) * 3.1416 * pow(radio, 3);\nstd::cout << \"El volumen de la esfera es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 8 múltiplos de 7",
+        "codigo": "for (int i = 1; i <= 8; i++) {\n    std::cout << 7 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta una cantidad de segundos a horas",
+        "codigo": "int segundos = 7200;\ndouble horas = segundos / 3600.0;\nstd::cout << segundos << \" segundos son \" << horas << \" horas\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el menor de dos números",
+        "codigo": "int menor(int a, int b) { return (a < b) ? a : b; }"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número flotante",
+        "codigo": "float cuadrado(float num) { return num * num; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 15 números naturales",
+        "codigo": "for (int i = 1; i <= 15; i++) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta metros cúbicos a litros",
+        "codigo": "double metrosCubicos = 2.0;\ndouble litros = metrosCubicos * 1000;\nstd::cout << metrosCubicos << \" metros cúbicos son \" << litros << \" litros\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es divisible por 7",
+        "codigo": "bool esDivisiblePorSiete(int num) { return num % 7 == 0; }"
+    },
+    {
+        "instruccion": "Calcular el área de un pentágono con apotema 6 y perímetro 30",
+        "codigo": "double apotema = 6.0, perimetro = 30.0;\ndouble area = (perimetro * apotema) / 2;\nstd::cout << \"El área del pentágono es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir un mensaje de advertencia si una variable llamada 'nivel' es mayor a 100",
+        "codigo": "int nivel = 105;\nif (nivel > 100) {\n    std::cout << \"Advertencia: Nivel alto\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el factorial de un número entero",
+        "codigo": "int factorial(int num) {\n    int resultado = 1;\n    for (int i = 1; i <= num; i++) {\n        resultado *= i;\n    }\n    return resultado;\n}"
+    },
+    {
+        "instruccion": "Declarar una variable constante llamada 'E' con el valor 2.718",
+        "codigo": "const double E = 2.718;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta centímetros a metros",
+        "codigo": "int centimetros = 150;\ndouble metros = centimetros / 100.0;\nstd::cout << centimetros << \" centímetros son \" << metros << \" metros\" << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 12 múltiplos de 6",
+        "codigo": "for (int i = 1; i <= 12; i++) {\n    std::cout << 6 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el número de vocales en una cadena",
+        "codigo": "int contarVocales(std::string cadena) {\n    int contador = 0;\n    for (char c : cadena) {\n        if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||\n            c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U') {\n            contador++;\n        }\n    }\n    return contador;\n}"
+    },
+    {
+        "instruccion": "Calcular el volumen de un prisma rectangular con largo 8, ancho 5 y altura 3",
+        "codigo": "int largo = 8, ancho = 5, altura = 3;\nint volumen = largo * ancho * altura;\nstd::cout << \"El volumen del prisma es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el máximo de tres números enteros",
+        "codigo": "int maximo(int a, int b, int c) { return std::max(a, std::max(b, c)); }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 20 números en orden inverso",
+        "codigo": "for (int i = 20; i >= 1; i--) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta días a minutos",
+        "codigo": "int dias = 3;\nint minutos = dias * 24 * 60;\nstd::cout << dias << \" días son \" << minutos << \" minutos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si una cadena es palíndroma",
+        "codigo": "bool esPalindromo(std::string cadena) {\n    int inicio = 0, fin = cadena.length() - 1;\n    while (inicio < fin) {\n        if (cadena[inicio] != cadena[fin]) {\n            return false;\n        }\n        inicio++;\n        fin--;\n    }\n    return true;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un trapecio con bases 8 y 5 y altura 7",
+        "codigo": "double baseMayor = 8.0, baseMenor = 5.0, altura = 7.0;\ndouble area = ((baseMayor + baseMenor) * altura) / 2;\nstd::cout << \"El área del trapecio es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta una cantidad en segundos a minutos y segundos restantes",
+        "codigo": "int totalSegundos = 125;\nint minutos = totalSegundos / 60;\nint segundos = totalSegundos % 60;\nstd::cout << totalSegundos << \" segundos son \" << minutos << \" minutos y \" << segundos << \" segundos\" << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 8 números de la serie de Fibonacci",
+        "codigo": "int a = 0, b = 1;\nstd::cout << a << \" \" << b << \" \";\nfor (int i = 3; i <= 8; i++) {\n    int siguiente = a + b;\n    std::cout << siguiente << \" \";\n    a = b;\n    b = siguiente;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un número y devuelva su sucesor",
+        "codigo": "int sucesor(int num) { return num + 1; }"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el doble de un número entero",
+        "codigo": "int doble(int num) { return num * 2; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 7",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 7 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta días a segundos",
+        "codigo": "int dias = 2;\nint segundos = dias * 24 * 3600;\nstd::cout << dias << \" días son \" << segundos << \" segundos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es mayor o igual a 0",
+        "codigo": "bool esNoNegativo(int num) { return num >= 0; }"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un rectángulo con largo 10 y ancho 5",
+        "codigo": "int largo = 10, ancho = 5;\nint perimetro = 2 * (largo + ancho);\nstd::cout << \"El perímetro del rectángulo es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 20 números pares",
+        "codigo": "for (int i = 1; i <= 20; i++) {\n    std::cout << 2 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cubo de un número flotante",
+        "codigo": "float cubo(float num) { return num * num * num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que multiplique dos números y muestre el resultado",
+        "codigo": "int a = 3, b = 4;\nint resultado = a * b;\nstd::cout << \"El resultado de la multiplicación es: \" << resultado << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un rombo con diagonales 7 y 9",
+        "codigo": "double diagonalMayor = 9.0, diagonalMenor = 7.0;\ndouble area = (diagonalMayor * diagonalMenor) / 2;\nstd::cout << \"El área del rombo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número entero",
+        "codigo": "int valorAbsoluto(int num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta una cantidad en horas a minutos",
+        "codigo": "int horas = 3;\nint minutos = horas * 60;\nstd::cout << horas << \" horas son \" << minutos << \" minutos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los cuadrados de los primeros n números",
+        "codigo": "int sumaCuadrados(int n) {\n    int suma = 0;\n    for (int i = 1; i <= n; i++) {\n        suma += i * i;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Proceso exitoso' al finalizar una tarea",
+        "codigo": "std::cout << \"Proceso exitoso\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un número y devuelva su antecesor",
+        "codigo": "int antecesor(int num) { return num - 1; }"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule la suma de los primeros 5 múltiplos de 8",
+        "codigo": "int suma = 0;\nfor (int i = 1; i <= 5; i++) {\n    suma += 8 * i;\n}\nstd::cout << \"La suma de los primeros 5 múltiplos de 8 es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un paralelogramo con base 10 y altura 7",
+        "codigo": "int base = 10, altura = 7;\nint area = base * altura;\nstd::cout << \"El área del paralelogramo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta gramos a kilogramos",
+        "codigo": "double gramosAKilogramos(double gramos) { return gramos / 1000; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números en una sola línea",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la cantidad de letras 'a' en una cadena",
+        "codigo": "int contarA(std::string cadena) {\n    int contador = 0;\n    for (char c : cadena) {\n        if (c == 'a' || c == 'A') {\n            contador++;\n        }\n    }\n    return contador;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta una temperatura de Fahrenheit a Celsius",
+        "codigo": "double fahrenheit = 86.0;\ndouble celsius = (fahrenheit - 32) * 5 / 9;\nstd::cout << \"La temperatura en Celsius es: \" << celsius << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Error: Entrada no válida' si la entrada es incorrecta",
+        "codigo": "bool entradaValida = false;\nif (!entradaValida) {\n    std::cout << \"Error: Entrada no válida\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es múltiplo de 10",
+        "codigo": "bool esMultiploDeDiez(int num) { return num % 10 == 0; }"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo equilátero con lado de longitud 4",
+        "codigo": "#include <cmath>\ndouble lado = 4.0;\ndouble area = (sqrt(3) / 4) * lado * lado;\nstd::cout << \"El área del triángulo equilátero es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el máximo común divisor de dos números",
+        "codigo": "int mcd(int a, int b) {\n    while (b != 0) {\n        int temp = b;\n        b = a % b;\n        a = temp;\n    }\n    return a;\n}"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 números de la serie de Fibonacci en una sola línea",
+        "codigo": "int a = 0, b = 1;\nstd::cout << a << \" \" << b << \" \";\nfor (int i = 3; i <= 5; i++) {\n    int siguiente = a + b;\n    std::cout << siguiente << \" \";\n    a = b;\n    b = siguiente;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número entero",
+        "codigo": "int valorAbsoluto(int num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta horas a segundos",
+        "codigo": "int horas = 5;\nint segundos = horas * 3600;\nstd::cout << horas << \" horas son \" << segundos << \" segundos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es impar",
+        "codigo": "bool esImpar(int num) { return num % 2 != 0; }"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cilindro con radio 3 y altura 8",
+        "codigo": "#include <cmath>\ndouble radio = 3.0, altura = 8.0;\ndouble volumen = 3.1416 * pow(radio, 2) * altura;\nstd::cout << \"El volumen del cilindro es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir un mensaje de éxito si una variable llamada 'operacionExitosa' es verdadera",
+        "codigo": "bool operacionExitosa = true;\nif (operacionExitosa) {\n    std::cout << \"Operación completada con éxito\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilogramos a gramos",
+        "codigo": "double kg = 2.5;\ndouble gramos = kg * 1000;\nstd::cout << kg << \" kilogramos son \" << gramos << \" gramos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el número de palabras en una cadena",
+        "codigo": "int contarPalabras(std::string cadena) {\n    int palabras = 1;\n    for (char c : cadena) {\n        if (c == ' ') {\n            palabras++;\n        }\n    }\n    return palabras;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el triple de un número",
+        "codigo": "int triple(int num) { return num * 3; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 11",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 11 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta pies a pulgadas",
+        "codigo": "double pies = 4.0;\ndouble pulgadas = pies * 12;\nstd::cout << pies << \" pies son \" << pulgadas << \" pulgadas\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es primo",
+        "codigo": "bool esPrimo(int num) {\n    if (num <= 1) return false;\n    for (int i = 2; i <= num / 2; i++) {\n        if (num % i == 0) return false;\n    }\n    return true;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 15",
+        "codigo": "double radio = 15.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 20 números en orden ascendente",
+        "codigo": "for (int i = 1; i <= 20; i++) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el número de consonantes en una cadena",
+        "codigo": "int contarConsonantes(std::string cadena) {\n    int contador = 0;\n    for (char c : cadena) {\n        if (!strchr(\"aeiouAEIOU\", c) && isalpha(c)) {\n            contador++;\n        }\n    }\n    return contador;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta una cantidad en minutos a horas y minutos",
+        "codigo": "int totalMinutos = 125;\nint horas = totalMinutos / 60;\nint minutos = totalMinutos % 60;\nstd::cout << totalMinutos << \" minutos son \" << horas << \" horas y \" << minutos << \" minutos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cubo con lado 6",
+        "codigo": "int lado = 6;\nint volumen = lado * lado * lado;\nstd::cout << \"El volumen del cubo es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Operación completada' al final de un proceso",
+        "codigo": "std::cout << \"Operación completada\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la diferencia entre dos números",
+        "codigo": "int diferencia(int a, int b) { return a - b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule el cuadrado de un número",
+        "codigo": "int num = 4;\nint cuadrado = num * num;\nstd::cout << \"El cuadrado es: \" << cuadrado << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un hexágono regular con lado 7 y apotema 6",
+        "codigo": "double lado = 7.0, apotema = 6.0;\ndouble area = (6 * lado * apotema) / 2;\nstd::cout << \"El área del hexágono es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta segundos a horas",
+        "codigo": "double segundosAHoras(int segundos) { return segundos / 3600.0; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números primos",
+        "codigo": "int contador = 0, num = 2;\nwhile (contador < 10) {\n    bool primo = true;\n    for (int i = 2; i <= num / 2; i++) {\n        if (num % i == 0) {\n            primo = false;\n            break;\n        }\n    }\n    if (primo) {\n        std::cout << num << \" \";\n        contador++;\n    }\n    num++;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de un arreglo de enteros",
+        "codigo": "double promedioArray(const std::vector<int>& arr) {\n    int suma = 0;\n    for (int num : arr) {\n        suma += num;\n    }\n    return static_cast<double>(suma) / arr.size();\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta euros a dólares",
+        "codigo": "double euros = 50.0;\ndouble tasaConversion = 1.1;\ndouble dolares = euros * tasaConversion;\nstd::cout << euros << \" euros son \" << dolares << \" dólares\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo isósceles con base 8 y altura 12",
+        "codigo": "double base = 8.0, altura = 12.0;\ndouble area = (base * altura) / 2;\nstd::cout << \"El área del triángulo isósceles es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta galones a litros",
+        "codigo": "double galonesALitros(double galones) { return galones * 3.78541; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 15",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 15 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el mayor de dos números enteros",
+        "codigo": "int mayor(int a, int b) { return (a > b) ? a : b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que calcule la raíz cuadrada de un número",
+        "codigo": "#include <cmath>\ndouble num = 49.0;\ndouble raiz = sqrt(num);\nstd::cout << \"La raíz cuadrada es: \" << raiz << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de una esfera con radio 6",
+        "codigo": "#include <cmath>\ndouble radio = 6.0;\ndouble volumen = (4.0 / 3) * 3.1416 * pow(radio, 3);\nstd::cout << \"El volumen de la esfera es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 múltiplos de 20",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << 20 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la cantidad de dígitos en un número",
+        "codigo": "int contarDigitos(int num) {\n    int contador = 0;\n    while (num != 0) {\n        num /= 10;\n        contador++;\n    }\n    return contador;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta metros cuadrados a hectáreas",
+        "codigo": "double metrosCuadrados = 10000.0;\ndouble hectareas = metrosCuadrados / 10000;\nstd::cout << metrosCuadrados << \" metros cuadrados son \" << hectareas << \" hectáreas\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 20",
+        "codigo": "double radio = 20.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta libras a kilogramos",
+        "codigo": "double librasAKilogramos(double libras) { return libras * 0.453592; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números naturales",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número entero",
+        "codigo": "int cuadrado(int num) { return num * num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta un valor en litros a mililitros",
+        "codigo": "double litros = 3.5;\ndouble mililitros = litros * 1000;\nstd::cout << litros << \" litros son \" << mililitros << \" mililitros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un hexágono con lado 10",
+        "codigo": "int lado = 10;\nint perimetro = 6 * lado;\nstd::cout << \"El perímetro del hexágono es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta gramos a libras",
+        "codigo": "double gramosALibras(double gramos) { return gramos * 0.00220462; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 9 en una sola línea",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 9 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el mínimo común múltiplo de dos números",
+        "codigo": "int mcm(int a, int b) {\n    return (a * b) / mcd(a, b);\n}"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es par",
+        "codigo": "bool esPar(int num) { return num % 2 == 0; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 15 múltiplos de 2",
+        "codigo": "for (int i = 1; i <= 15; i++) {\n    std::cout << 2 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta horas a días",
+        "codigo": "int horas = 48;\ndouble dias = horas / 24.0;\nstd::cout << horas << \" horas son \" << dias << \" días\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es divisible por 3",
+        "codigo": "bool esDivisiblePorTres(int num) { return num % 3 == 0; }"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo con base 12 y altura 8",
+        "codigo": "double base = 12.0, altura = 8.0;\ndouble area = (base * altura) / 2;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 20 números impares",
+        "codigo": "for (int i = 1; i <= 20; i++) {\n    std::cout << 2 * i - 1 << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que reciba una cadena y devuelva su longitud",
+        "codigo": "int longitudCadena(std::string cadena) { return cadena.length(); }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta dólares a euros",
+        "codigo": "double dolares = 100.0;\ndouble tasaConversion = 0.9;\ndouble euros = dolares * tasaConversion;\nstd::cout << dolares << \" dólares son \" << euros << \" euros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cono con radio 4 y altura 9",
+        "codigo": "#include <cmath>\ndouble radio = 4.0, altura = 9.0;\ndouble volumen = (3.1416 * pow(radio, 2) * altura) / 3;\nstd::cout << \"El volumen del cono es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Acceso denegado' si una variable llamada 'permiso' es falsa",
+        "codigo": "bool permiso = false;\nif (!permiso) {\n    std::cout << \"Acceso denegado\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que calcule el resto de la división de dos números",
+        "codigo": "int resto(int a, int b) { return a % b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta metros a centímetros",
+        "codigo": "double metros = 2.5;\ndouble centimetros = metros * 100;\nstd::cout << metros << \" metros son \" << centimetros << \" centímetros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un pentágono con lado 6 y apotema 4",
+        "codigo": "double lado = 6.0, apotema = 4.0;\ndouble area = (5 * lado * apotema) / 2;\nstd::cout << \"El área del pentágono es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta millas a metros",
+        "codigo": "double millasAMetros(double millas) { return millas * 1609.34; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 múltiplos de 3",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << 3 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de cuatro números",
+        "codigo": "double promedio(double a, double b, double c, double d) { return (a + b + c + d) / 4.0; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta grados Fahrenheit a Kelvin",
+        "codigo": "double fahrenheit = 98.6;\ndouble kelvin = (fahrenheit - 32) * 5 / 9 + 273.15;\nstd::cout << \"La temperatura en Kelvin es: \" << kelvin << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cilindro con radio 5 y altura 10",
+        "codigo": "#include <cmath>\ndouble radio = 5.0, altura = 10.0;\ndouble volumen = 3.1416 * pow(radio, 2) * altura;\nstd::cout << \"El volumen del cilindro es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor mínimo de un arreglo de enteros",
+        "codigo": "int valorMinimo(const std::vector<int>& arr) {\n    return *std::min_element(arr.begin(), arr.end());\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que imprima los primeros 10 cuadrados perfectos",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << i * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 18",
+        "codigo": "double radio = 18.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los elementos de un arreglo",
+        "codigo": "int sumaArreglo(const std::vector<int>& arr) {\n    int suma = 0;\n    for (int num : arr) {\n        suma += num;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilobytes a bytes",
+        "codigo": "int kilobytes = 10;\nint bytes = kilobytes * 1024;\nstd::cout << kilobytes << \" kilobytes son \" << bytes << \" bytes\" << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Proceso en curso' hasta que una variable sea verdadera",
+        "codigo": "bool enCurso = true;\nwhile (enCurso) {\n    std::cout << \"Proceso en curso\" << std::endl;\n    enCurso = false; // Se establece en falso para detener el bucle\n}"
+    },
+    {
+        "instruccion": "Crear una función que convierta un valor en días a horas",
+        "codigo": "int diasAHoras(int dias) { return dias * 24; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 5 en una sola línea",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 5 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un triángulo equilátero con lado 9",
+        "codigo": "int lado = 9;\nint perimetro = 3 * lado;\nstd::cout << \"El perímetro del triángulo es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cubo de un número decimal",
+        "codigo": "double cubo(double num) { return num * num * num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta días a segundos",
+        "codigo": "int dias = 1;\nint segundos = dias * 24 * 3600;\nstd::cout << dias << \" días son \" << segundos << \" segundos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la cantidad de elementos en un arreglo",
+        "codigo": "int longitudArreglo(const std::vector<int>& arr) { return arr.size(); }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 8 múltiplos de 4",
+        "codigo": "for (int i = 1; i <= 8; i++) {\n    std::cout << 4 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de los elementos de un arreglo de enteros",
+        "codigo": "double promedioArreglo(const std::vector<int>& arr) {\n    int suma = 0;\n    for (int num : arr) {\n        suma += num;\n    }\n    return static_cast<double>(suma) / arr.size();\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilómetros a metros",
+        "codigo": "double km = 5.0;\ndouble metros = km * 1000;\nstd::cout << km << \" kilómetros son \" << metros << \" metros\" << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 12 múltiplos de 3 en una sola línea",
+        "codigo": "for (int i = 1; i <= 12; i++) {\n    std::cout << 3 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta pulgadas a metros",
+        "codigo": "double pulgadasAMetros(double pulgadas) { return pulgadas * 0.0254; }"
+    },
+    {
+        "instruccion": "Calcular el área de un rectángulo con largo 9 y ancho 4",
+        "codigo": "int largo = 9, ancho = 4;\nint area = largo * ancho;\nstd::cout << \"El área del rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es múltiplo de 4",
+        "codigo": "bool esMultiploDeCuatro(int num) { return num % 4 == 0; }"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número flotante",
+        "codigo": "float cuadrado(float num) { return num * num; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números naturales",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta minutos a segundos",
+        "codigo": "int minutos = 15;\nint segundos = minutos * 60;\nstd::cout << minutos << \" minutos son \" << segundos << \" segundos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva verdadero si un número es negativo",
+        "codigo": "bool esNegativo(int num) { return num < 0; }"
+    },
+    {
+        "instruccion": "Calcular el área de un rectángulo con largo 20 y ancho 15",
+        "codigo": "int largo = 20, ancho = 15;\nint area = largo * ancho;\nstd::cout << \"El área del rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 12 múltiplos de 2 en una sola línea",
+        "codigo": "for (int i = 1; i <= 12; i++) {\n    std::cout << 2 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los primeros n números enteros",
+        "codigo": "int sumaEnteros(int n) {\n    return (n * (n + 1)) / 2;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilogramos a miligramos",
+        "codigo": "double kilogramos = 1.5;\ndouble miligramos = kilogramos * 1000000;\nstd::cout << kilogramos << \" kilogramos son \" << miligramos << \" miligramos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un pentágono con lado 6",
+        "codigo": "int lado = 6;\nint perimetro = 5 * lado;\nstd::cout << \"El perímetro del pentágono es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Archivo guardado' después de realizar una operación",
+        "codigo": "std::cout << \"Archivo guardado\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que reciba un número y devuelva su doble",
+        "codigo": "int doble(int num) { return num * 2; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta días a horas",
+        "codigo": "int dias = 3;\nint horas = dias * 24;\nstd::cout << dias << \" días son \" << horas << \" horas\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un rombo con diagonales 14 y 10",
+        "codigo": "double diagonalMayor = 14.0, diagonalMenor = 10.0;\ndouble area = (diagonalMayor * diagonalMenor) / 2;\nstd::cout << \"El área del rombo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta pies a metros",
+        "codigo": "double piesAMetros(double pies) { return pies * 0.3048; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 8 en una sola línea",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 8 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el menor de tres números enteros",
+        "codigo": "int menor(int a, int b, int c) { return std::min(a, std::min(b, c)); }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta bytes a kilobytes",
+        "codigo": "int bytes = 2048;\ndouble kilobytes = bytes / 1024.0;\nstd::cout << bytes << \" bytes son \" << kilobytes << \" kilobytes\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo con base 8 y altura 5",
+        "codigo": "double base = 8.0, altura = 5.0;\ndouble area = (base * altura) / 2;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta centímetros a milímetros",
+        "codigo": "int centimetrosAMilimetros(int cm) { return cm * 10; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 7 múltiplos de 9",
+        "codigo": "for (int i = 1; i <= 7; i++) {\n    std::cout << 9 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el producto de dos números",
+        "codigo": "int producto(int a, int b) { return a * b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta litros a decilitros",
+        "codigo": "double litros = 5.0;\ndouble decilitros = litros * 10;\nstd::cout << litros << \" litros son \" << decilitros << \" decilitros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un cuadrado con lado 10",
+        "codigo": "int lado = 10;\nint perimetro = 4 * lado;\nstd::cout << \"El perímetro del cuadrado es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Bienvenido al sistema' al iniciar",
+        "codigo": "std::cout << \"Bienvenido al sistema\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los primeros n números pares",
+        "codigo": "int sumaPares(int n) {\n    int suma = 0;\n    for (int i = 1; i <= n; i++) {\n        suma += 2 * i;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilómetros a millas",
+        "codigo": "double km = 10.0;\ndouble millas = km * 0.621371;\nstd::cout << km << \" kilómetros son \" << millas << \" millas\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 10",
+        "codigo": "double radio = 10.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la raíz cúbica de un número",
+        "codigo": "#include <cmath>\ndouble raizCubica(double num) { return cbrt(num); }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 7",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 7 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que verifique si una cadena tiene más de 10 caracteres",
+        "codigo": "bool tieneMasDeDiezCaracteres(std::string cadena) { return cadena.length() > 10; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta pulgadas a centímetros",
+        "codigo": "double pulgadas = 6.0;\ndouble centimetros = pulgadas * 2.54;\nstd::cout << pulgadas << \" pulgadas son \" << centimetros << \" centímetros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cubo con lado 5",
+        "codigo": "int lado = 5;\nint volumen = lado * lado * lado;\nstd::cout << \"El volumen del cubo es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número flotante",
+        "codigo": "float valorAbsoluto(float num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta pies cuadrados a metros cuadrados",
+        "codigo": "double piesCuadrados = 25.0;\ndouble metrosCuadrados = piesCuadrados * 0.092903;\nstd::cout << piesCuadrados << \" pies cuadrados son \" << metrosCuadrados << \" metros cuadrados\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un círculo con radio 4",
+        "codigo": "double radio = 4.0;\ndouble perimetro = 2 * 3.1416 * radio;\nstd::cout << \"El perímetro del círculo es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir un mensaje de error si el valor de una variable llamada 'status' es falso",
+        "codigo": "bool status = false;\nif (!status) {\n    std::cout << \"Error: Estado inválido\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que convierta gramos a kilogramos",
+        "codigo": "double gramosAKilogramos(double gramos) { return gramos / 1000; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 8 números impares",
+        "codigo": "for (int i = 1; i <= 8; i++) {\n    std::cout << 2 * i - 1 << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número entero",
+        "codigo": "int cuadrado(int num) { return num * num; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 15 múltiplos de 4",
+        "codigo": "for (int i = 1; i <= 15; i++) {\n    std::cout << 4 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta segundos a minutos",
+        "codigo": "int segundos = 120;\ndouble minutos = segundos / 60.0;\nstd::cout << segundos << \" segundos son \" << minutos << \" minutos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el módulo de dos números",
+        "codigo": "int modulo(int a, int b) { return a % b; }"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo con base 14 y altura 7",
+        "codigo": "double base = 14.0, altura = 7.0;\ndouble area = (base * altura) / 2;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 25 números naturales en orden ascendente",
+        "codigo": "for (int i = 1; i <= 25; i++) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que convierta días a minutos",
+        "codigo": "int diasAMinutos(int dias) { return dias * 24 * 60; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta pulgadas a metros",
+        "codigo": "double pulgadas = 39.37;\ndouble metros = pulgadas * 0.0254;\nstd::cout << pulgadas << \" pulgadas son \" << metros << \" metros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de una esfera con radio 8",
+        "codigo": "#include <cmath>\ndouble radio = 8.0;\ndouble volumen = (4.0 / 3) * 3.1416 * pow(radio, 3);\nstd::cout << \"El volumen de la esfera es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Operación exitosa' al completar una tarea",
+        "codigo": "std::cout << \"Operación exitosa\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el triple de un número flotante",
+        "codigo": "float triple(float num) { return num * 3; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilogramos a gramos",
+        "codigo": "double kg = 0.75;\ndouble gramos = kg * 1000;\nstd::cout << kg << \" kilogramos son \" << gramos << \" gramos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un trapecio con bases 10 y 6 y altura 5",
+        "codigo": "double baseMayor = 10.0, baseMenor = 6.0, altura = 5.0;\ndouble area = ((baseMayor + baseMenor) * altura) / 2;\nstd::cout << \"El área del trapecio es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta litros a centímetros cúbicos",
+        "codigo": "double litrosACmCubicos(double litros) { return litros * 1000; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 múltiplos de 12",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << 12 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de cinco números",
+        "codigo": "double promedio(double a, double b, double c, double d, double e) { return (a + b + c + d + e) / 5.0; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta millas a kilómetros",
+        "codigo": "double millas = 2.0;\ndouble km = millas * 1.60934;\nstd::cout << millas << \" millas son \" << km << \" kilómetros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un hexágono con lado 12",
+        "codigo": "int lado = 12;\nint perimetro = 6 * lado;\nstd::cout << \"El perímetro del hexágono es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la longitud de una cadena",
+        "codigo": "int longitudCadena(std::string cadena) { return cadena.length(); }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números en orden inverso",
+        "codigo": "for (int i = 10; i >= 1; i--) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor máximo de tres números enteros",
+        "codigo": "int maximo(int a, int b, int c) { return std::max(a, std::max(b, c)); }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilolitros a litros",
+        "codigo": "double kilolitros = 3.5;\ndouble litros = kilolitros * 1000;\nstd::cout << kilolitros << \" kilolitros son \" << litros << \" litros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un hexágono regular con lado 9 y apotema 7.8",
+        "codigo": "double lado = 9.0, apotema = 7.8;\ndouble area = (6 * lado * apotema) / 2;\nstd::cout << \"El área del hexágono es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta gramos a libras",
+        "codigo": "double gramosALibras(double gramos) { return gramos * 0.00220462; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 12 múltiplos de 6 en una sola línea",
+        "codigo": "for (int i = 1; i <= 12; i++) {\n    std::cout << 6 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de dos números",
+        "codigo": "int suma(int a, int b) { return a + b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta gramos a kilogramos",
+        "codigo": "double gramos = 500;\ndouble kilogramos = gramos / 1000;\nstd::cout << gramos << \" gramos son \" << kilogramos << \" kilogramos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 13",
+        "codigo": "double radio = 13.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número",
+        "codigo": "int cuadrado(int num) { return num * num; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 8 múltiplos de 5",
+        "codigo": "for (int i = 1; i <= 8; i++) {\n    std::cout << 5 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el mayor de dos números",
+        "codigo": "int mayor(int a, int b) { return (a > b) ? a : b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta litros a mililitros",
+        "codigo": "double litros = 1.75;\ndouble mililitros = litros * 1000;\nstd::cout << litros << \" litros son \" << mililitros << \" mililitros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cilindro con radio 6 y altura 14",
+        "codigo": "#include <cmath>\ndouble radio = 6.0, altura = 14.0;\ndouble volumen = 3.1416 * pow(radio, 2) * altura;\nstd::cout << \"El volumen del cilindro es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si una cadena está vacía",
+        "codigo": "bool esVacia(std::string cadena) { return cadena.empty(); }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números de la serie de Fibonacci",
+        "codigo": "int a = 0, b = 1;\nstd::cout << a << \" \" << b << \" \";\nfor (int i = 3; i <= 10; i++) {\n    int siguiente = a + b;\n    std::cout << siguiente << \" \";\n    a = b;\n    b = siguiente;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta días a segundos",
+        "codigo": "int diasASegundos(int dias) { return dias * 86400; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta pulgadas cúbicas a litros",
+        "codigo": "double pulgadasCubicas = 500;\ndouble litros = pulgadasCubicas * 0.0163871;\nstd::cout << pulgadasCubicas << \" pulgadas cúbicas son \" << litros << \" litros\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número entero",
+        "codigo": "int valorAbsoluto(int num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 15 múltiplos de 3",
+        "codigo": "for (int i = 1; i <= 15; i++) {\n    std::cout << 3 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta horas a minutos",
+        "codigo": "int horas = 2;\nint minutos = horas * 60;\nstd::cout << horas << \" horas son \" << minutos << \" minutos\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es múltiplo de 5",
+        "codigo": "bool esMultiploDeCinco(int num) { return num % 5 == 0; }"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo con base 20 y altura 10",
+        "codigo": "double base = 20.0, altura = 10.0;\ndouble area = (base * altura) / 2;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 20 múltiplos de 7",
+        "codigo": "for (int i = 1; i <= 20; i++) {\n    std::cout << 7 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de tres números",
+        "codigo": "double promedio(double a, double b, double c) { return (a + b + c) / 3.0; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta grados Celsius a Fahrenheit",
+        "codigo": "double celsius = 25.0;\ndouble fahrenheit = (celsius * 9/5) + 32;\nstd::cout << celsius << \" grados Celsius son \" << fahrenheit << \" grados Fahrenheit\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de un prisma rectangular con largo 8, ancho 5 y altura 3",
+        "codigo": "int largo = 8, ancho = 5, altura = 3;\nint volumen = largo * ancho * altura;\nstd::cout << \"El volumen del prisma es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Acceso permitido' si una variable 'permitido' es verdadera",
+        "codigo": "bool permitido = true;\nif (permitido) {\n    std::cout << \"Acceso permitido\" << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cubo de un número entero",
+        "codigo": "int cubo(int num) { return num * num * num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilobytes a megabytes",
+        "codigo": "int kilobytes = 2048;\ndouble megabytes = kilobytes / 1024.0;\nstd::cout << kilobytes << \" kilobytes son \" << megabytes << \" megabytes\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un trapecio con bases 12 y 8 y altura 6",
+        "codigo": "double baseMayor = 12.0, baseMenor = 8.0, altura = 6.0;\ndouble area = ((baseMayor + baseMenor) * altura) / 2;\nstd::cout << \"El área del trapecio es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta metros cúbicos a litros",
+        "codigo": "double metrosCubicosALitros(double metrosCubicos) { return metrosCubicos * 1000; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números en orden descendente",
+        "codigo": "for (int i = 10; i >= 1; i--) {\n    std::cout << i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el menor de dos números",
+        "codigo": "int menor(int a, int b) { return (a < b) ? a : b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta minutos a horas",
+        "codigo": "int minutos = 120;\ndouble horas = minutos / 60.0;\nstd::cout << minutos << \" minutos son \" << horas << \" horas\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un rombo con diagonales 16 y 12",
+        "codigo": "double diagonalMayor = 16.0, diagonalMenor = 12.0;\ndouble area = (diagonalMayor * diagonalMenor) / 2;\nstd::cout << \"El área del rombo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta pulgadas a pies",
+        "codigo": "double pulgadasAPies(double pulgadas) { return pulgadas / 12; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 15 múltiplos de 10",
+        "codigo": "for (int i = 1; i <= 15; i++) {\n    std::cout << 10 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número flotante",
+        "codigo": "float valorAbsoluto(float num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta libras a kilogramos",
+        "codigo": "double libras = 50.0;\ndouble kilogramos = libras * 0.453592;\nstd::cout << libras << \" libras son \" << kilogramos << \" kilogramos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un triángulo equilátero con lado 7",
+        "codigo": "int lado = 7;\nint perimetro = 3 * lado;\nstd::cout << \"El perímetro del triángulo es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta pies a pulgadas",
+        "codigo": "double piesAPulgadas(double pies) { return pies * 12; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 9 en una sola línea",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 9 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de dos números",
+        "codigo": "double promedio(double a, double b) { return (a + b) / 2.0; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta pulgadas cúbicas a centímetros cúbicos",
+        "codigo": "double pulgadasCubicas = 50.0;\ndouble cmCubicos = pulgadasCubicas * 16.3871;\nstd::cout << pulgadasCubicas << \" pulgadas cúbicas son \" << cmCubicos << \" centímetros cúbicos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 22",
+        "codigo": "double radio = 22.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es impar",
+        "codigo": "bool esImpar(int num) { return num % 2 != 0; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 6",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 6 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número entero",
+        "codigo": "int cuadrado(int num) { return num * num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta millas a metros",
+        "codigo": "double millas = 3.0;\ndouble metros = millas * 1609.34;\nstd::cout << millas << \" millas son \" << metros << \" metros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cubo con lado 6",
+        "codigo": "int lado = 6;\nint volumen = lado * lado * lado;\nstd::cout << \"El volumen del cubo es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta segundos a horas",
+        "codigo": "double segundosAHoras(int segundos) { return segundos / 3600.0; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 12 múltiplos de 3 en una sola línea",
+        "codigo": "for (int i = 1; i <= 12; i++) {\n    std::cout << 3 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número flotante",
+        "codigo": "float cuadrado(float num) { return num * num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta pulgadas a centímetros",
+        "codigo": "double pulgadas = 8.0;\ndouble centimetros = pulgadas * 2.54;\nstd::cout << pulgadas << \" pulgadas son \" << centimetros << \" centímetros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un rombo con diagonales 18 y 14",
+        "codigo": "double diagonalMayor = 18.0, diagonalMenor = 14.0;\ndouble area = (diagonalMayor * diagonalMenor) / 2;\nstd::cout << \"El área del rombo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es positivo",
+        "codigo": "bool esPositivo(int num) { return num > 0; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números primos",
+        "codigo": "int contador = 0, num = 2;\nwhile (contador < 10) {\n    bool primo = true;\n    for (int i = 2; i <= num / 2; i++) {\n        if (num % i == 0) {\n            primo = false;\n            break;\n        }\n    }\n    if (primo) {\n        std::cout << num << \" \";\n        contador++;\n    }\n    num++;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta metros a kilómetros",
+        "codigo": "double metros = 5000;\ndouble kilometros = metros / 1000;\nstd::cout << metros << \" metros son \" << kilometros << \" kilómetros\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la raíz cuadrada de un número",
+        "codigo": "#include <cmath>\ndouble raizCuadrada(double num) { return sqrt(num); }"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un pentágono con lado 10",
+        "codigo": "int lado = 10;\nint perimetro = 5 * lado;\nstd::cout << \"El perímetro del pentágono es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 20 múltiplos de 3 en una sola línea",
+        "codigo": "for (int i = 1; i <= 20; i++) {\n    std::cout << 3 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el número de dígitos en un número entero",
+        "codigo": "int contarDigitos(int num) {\n    int contador = 0;\n    while (num != 0) {\n        num /= 10;\n        contador++;\n    }\n    return contador;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta horas a segundos",
+        "codigo": "int horas = 2;\nint segundos = horas * 3600;\nstd::cout << horas << \" horas son \" << segundos << \" segundos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un cuadrado con lado 12",
+        "codigo": "int lado = 12;\nint area = lado * lado;\nstd::cout << \"El área del cuadrado es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el producto de tres números",
+        "codigo": "int producto(int a, int b, int c) { return a * b * c; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 15 múltiplos de 8",
+        "codigo": "for (int i = 1; i <= 15; i++) {\n    std::cout << 8 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta gramos a toneladas",
+        "codigo": "double gramos = 250000;\ndouble toneladas = gramos / 1000000;\nstd::cout << gramos << \" gramos son \" << toneladas << \" toneladas\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un hexágono con lado 8 y apotema 6.9",
+        "codigo": "double lado = 8.0, apotema = 6.9;\ndouble area = (6 * lado * apotema) / 2;\nstd::cout << \"El área del hexágono es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta pies cuadrados a metros cuadrados",
+        "codigo": "double piesCuadradosAMetrosCuadrados(double pies) { return pies * 0.092903; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números de la serie de Fibonacci",
+        "codigo": "int a = 0, b = 1;\nstd::cout << a << \" \" << b << \" \";\nfor (int i = 3; i <= 10; i++) {\n    int siguiente = a + b;\n    std::cout << siguiente << \" \";\n    a = b;\n    b = siguiente;\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el menor de cuatro números",
+        "codigo": "int menor(int a, int b, int c, int d) { return std::min(std::min(a, b), std::min(c, d)); }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta metros cuadrados a hectáreas",
+        "codigo": "double metrosCuadrados = 50000;\ndouble hectareas = metrosCuadrados / 10000;\nstd::cout << metrosCuadrados << \" metros cuadrados son \" << hectareas << \" hectáreas\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un rectángulo con largo 15 y ancho 9",
+        "codigo": "int largo = 15, ancho = 9;\nint area = largo * ancho;\nstd::cout << \"El área del rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta pulgadas a metros",
+        "codigo": "double pulgadasAMetros(double pulgadas) { return pulgadas * 0.0254; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 8 múltiplos de 7 en una sola línea",
+        "codigo": "for (int i = 1; i <= 8; i++) {\n    std::cout << 7 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el módulo de un número",
+        "codigo": "int modulo(int a, int b) { return a % b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta litros a kilolitros",
+        "codigo": "double litros = 2500;\ndouble kilolitros = litros / 1000;\nstd::cout << litros << \" litros son \" << kilolitros << \" kilolitros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un triángulo con lados 5, 12 y 13",
+        "codigo": "int lado1 = 5, lado2 = 12, lado3 = 13;\nint perimetro = lado1 + lado2 + lado3;\nstd::cout << \"El perímetro del triángulo es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si una cadena es un palíndromo",
+        "codigo": "bool esPalindromo(std::string cadena) {\n    int inicio = 0, fin = cadena.length() - 1;\n    while (inicio < fin) {\n        if (cadena[inicio] != cadena[fin]) {\n            return false;\n        }\n        inicio++;\n        fin--;\n    }\n    return true;\n}"
+    },
+    {
+        "instruccion": "Imprimir los primeros 6 múltiplos de 12 en una sola línea",
+        "codigo": "for (int i = 1; i <= 6; i++) {\n    std::cout << 12 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número flotante",
+        "codigo": "float valorAbsoluto(float num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta miligramos a gramos",
+        "codigo": "double miligramos = 5000;\ndouble gramos = miligramos / 1000;\nstd::cout << miligramos << \" miligramos son \" << gramos << \" gramos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 9",
+        "codigo": "double radio = 9.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor máximo de un arreglo de enteros",
+        "codigo": "int valorMaximo(const std::vector<int>& arr) {\n    return *std::max_element(arr.begin(), arr.end());\n}"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 6 en una sola línea",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 6 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el factorial de un número",
+        "codigo": "int factorial(int n) {\n    int resultado = 1;\n    for (int i = 2; i <= n; i++) {\n        resultado *= i;\n    }\n    return resultado;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilómetros a centímetros",
+        "codigo": "double km = 1.5;\ndouble cm = km * 100000;\nstd::cout << km << \" kilómetros son \" << cm << \" centímetros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un rectángulo con largo 14 y ancho 8",
+        "codigo": "int largo = 14, ancho = 8;\nint area = largo * ancho;\nstd::cout << \"El área del rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número decimal",
+        "codigo": "double cuadrado(double num) { return num * num; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 15",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 15 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que convierta gramos a kilogramos",
+        "codigo": "double gramosAKilogramos(double gramos) { return gramos / 1000; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilómetros por hora a metros por segundo",
+        "codigo": "double kmh = 90;\ndouble mps = kmh * (1000.0 / 3600);\nstd::cout << kmh << \" km/h son \" << mps << \" m/s\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo isósceles con base 7 y altura 10",
+        "codigo": "double base = 7.0, altura = 10.0;\ndouble area = (base * altura) / 2;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el triple de un número entero",
+        "codigo": "int triple(int num) { return num * 3; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 20 múltiplos de 2",
+        "codigo": "for (int i = 1; i <= 20; i++) {\n    std::cout << 2 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta litros a galones",
+        "codigo": "double litros = 3.8;\ndouble galones = litros * 0.264172;\nstd::cout << litros << \" litros son \" << galones << \" galones\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es múltiplo de 4",
+        "codigo": "bool esMultiploDeCuatro(int num) { return num % 4 == 0; }"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo con base 16 y altura 9",
+        "codigo": "double base = 16.0, altura = 9.0;\ndouble area = (base * altura) / 2;\nstd::cout << \"El área del triángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números en orden ascendente y descendente",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << i << \" \";\n}\nstd::cout << std::endl;\nfor (int i = 10; i >= 1; i--) {\n    std::cout << i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la raíz cúbica de un número entero",
+        "codigo": "double raizCubica(int num) { return pow(num, 1.0/3); }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilómetros cuadrados a millas cuadradas",
+        "codigo": "double kmCuadrados = 10;\ndouble millasCuadradas = kmCuadrados * 0.386102;\nstd::cout << kmCuadrados << \" km^2 son \" << millasCuadradas << \" millas cuadradas\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cilindro con radio 7 y altura 14",
+        "codigo": "#include <cmath>\ndouble radio = 7.0, altura = 14.0;\ndouble volumen = 3.1416 * pow(radio, 2) * altura;\nstd::cout << \"El volumen del cilindro es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir el mensaje 'Fin del proceso' después de finalizar",
+        "codigo": "std::cout << \"Fin del proceso\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el mínimo de tres números enteros",
+        "codigo": "int minimo(int a, int b, int c) { return std::min(a, std::min(b, c)); }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta bytes a gigabytes",
+        "codigo": "long bytes = 1073741824;\ndouble gigabytes = bytes / (1024.0 * 1024 * 1024);\nstd::cout << bytes << \" bytes son \" << gigabytes << \" gigabytes\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un trapecio con bases 14 y 10 y altura 5",
+        "codigo": "double baseMayor = 14.0, baseMenor = 10.0, altura = 5.0;\ndouble area = ((baseMayor + baseMenor) * altura) / 2;\nstd::cout << \"El área del trapecio es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta kilómetros cúbicos a metros cúbicos",
+        "codigo": "double kmCubicosAMetrosCubicos(double kmCubicos) { return kmCubicos * 1e9; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 15 múltiplos de 5 en una sola línea",
+        "codigo": "for (int i = 1; i <= 15; i++) {\n    std::cout << 5 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el mayor de cinco números enteros",
+        "codigo": "int maximo(int a, int b, int c, int d, int e) { return std::max({a, b, c, d, e}); }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta gramos a onzas",
+        "codigo": "double gramos = 100;\ndouble onzas = gramos * 0.035274;\nstd::cout << gramos << \" gramos son \" << onzas << \" onzas\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un pentágono con lado 5 y apotema 4",
+        "codigo": "double lado = 5.0, apotema = 4.0;\ndouble area = (5 * lado * apotema) / 2;\nstd::cout << \"El área del pentágono es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta decímetros a metros",
+        "codigo": "double decimetrosAMetros(double decimetros) { return decimetros / 10; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 12 múltiplos de 3 y 4 alternadamente",
+        "codigo": "for (int i = 1; i <= 12; i++) {\n    std::cout << 3 * i << \" \" << 4 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de un arreglo de flotantes",
+        "codigo": "double promedioArray(const std::vector<float>& arr) {\n    float suma = 0.0;\n    for (float num : arr) {\n        suma += num;\n    }\n    return suma / arr.size();\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta decímetros cúbicos a litros",
+        "codigo": "double decimetrosCubicos = 5.0;\ndouble litros = decimetrosCubicos;\nstd::cout << decimetrosCubicos << \" decímetros cúbicos son \" << litros << \" litros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 18",
+        "codigo": "double radio = 18.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta metros a kilómetros",
+        "codigo": "double metrosAKilometros(double metros) { return metros / 1000; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 11 en una sola línea",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 11 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de tres números flotantes",
+        "codigo": "float promedio(float a, float b, float c) { return (a + b + c) / 3.0f; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta toneladas a gramos",
+        "codigo": "double toneladas = 2;\ndouble gramos = toneladas * 1000000;\nstd::cout << toneladas << \" toneladas son \" << gramos << \" gramos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo rectángulo con catetos 8 y 15",
+        "codigo": "double catetoA = 8.0, catetoB = 15.0;\ndouble area = (catetoA * catetoB) / 2;\nstd::cout << \"El área del triángulo rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta días a semanas",
+        "codigo": "double diasASemanas(double dias) { return dias / 7; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números en forma de tabla",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << i << \"\\t\";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta años a días",
+        "codigo": "int anos = 5;\nint dias = anos * 365;\nstd::cout << anos << \" años son \" << dias << \" días\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si una cadena contiene un carácter específico",
+        "codigo": "bool contieneCaracter(std::string cadena, char caracter) {\n    return cadena.find(caracter) != std::string::npos;\n}"
+    },
+    {
+        "instruccion": "Calcular el área de un triángulo equilátero con lado 6",
+        "codigo": "double lado = 6.0;\ndouble area = (sqrt(3) / 4) * lado * lado;\nstd::cout << \"El área del triángulo equilátero es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 15 múltiplos de 4 en una sola línea",
+        "codigo": "for (int i = 1; i <= 15; i++) {\n    std::cout << 4 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta gramos a kilogramos",
+        "codigo": "double gramosAKilogramos(double gramos) { return gramos / 1000; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta metros a pulgadas",
+        "codigo": "double metros = 2.0;\ndouble pulgadas = metros / 0.0254;\nstd::cout << metros << \" metros son \" << pulgadas << \" pulgadas\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 25",
+        "codigo": "double radio = 25.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que verifique si un número es divisible entre dos números dados",
+        "codigo": "bool esDivisible(int num, int divisor1, int divisor2) {\n    return num % divisor1 == 0 && num % divisor2 == 0;\n}"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 números pares y sus cuadrados",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 2 * i << \" \" << (2 * i) * (2 * i) << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta semanas a minutos",
+        "codigo": "int semanas = 2;\nint minutos = semanas * 7 * 24 * 60;\nstd::cout << semanas << \" semanas son \" << minutos << \" minutos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de un cubo con lado 10",
+        "codigo": "int lado = 10;\nint volumen = lado * lado * lado;\nstd::cout << \"El volumen del cubo es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los números en un rango",
+        "codigo": "int sumaRango(int inicio, int fin) {\n    int suma = 0;\n    for (int i = inicio; i <= fin; i++) {\n        suma += i;\n    }\n    return suma;\n}"
+    },
+    {
+        "instruccion": "Imprimir la tabla de multiplicar del 7 hasta el 10",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << \"7 * \" << i << \" = \" << 7 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta milisegundos a segundos",
+        "codigo": "long milisegundos = 1500;\ndouble segundos = milisegundos / 1000.0;\nstd::cout << milisegundos << \" milisegundos son \" << segundos << \" segundos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un rectángulo con largo 20 y ancho 10",
+        "codigo": "int largo = 20, ancho = 10;\nint area = largo * ancho;\nstd::cout << \"El área del rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el índice de la primera aparición de un carácter en una cadena",
+        "codigo": "int buscarCaracter(std::string cadena, char caracter) {\n    return cadena.find(caracter);\n}"
+    },
+    {
+        "instruccion": "Imprimir los primeros 5 múltiplos de 9 en una sola línea",
+        "codigo": "for (int i = 1; i <= 5; i++) {\n    std::cout << 9 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta grados a radianes",
+        "codigo": "double gradosARadianes(double grados) { return grados * (3.1416 / 180.0); }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 6 múltiplos de 11",
+        "codigo": "for (int i = 1; i <= 6; i++) {\n    std::cout << 11 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta días a horas y minutos",
+        "codigo": "int dias = 3;\nint horas = dias * 24;\nint minutos = horas * 60;\nstd::cout << dias << \" días son \" << horas << \" horas y \" << minutos << \" minutos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un hexágono con lado 10 y apotema 8.5",
+        "codigo": "double lado = 10.0, apotema = 8.5;\ndouble area = (6 * lado * apotema) / 2;\nstd::cout << \"El área del hexágono es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de dos números enteros",
+        "codigo": "double promedio(int a, int b) { return (a + b) / 2.0; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta kilómetros por hora a metros por segundo",
+        "codigo": "double kmh = 120;\ndouble mps = kmh / 3.6;\nstd::cout << kmh << \" km/h son \" << mps << \" m/s\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un trapecio con bases 15 y 10 y altura 7",
+        "codigo": "double baseMayor = 15.0, baseMenor = 10.0, altura = 7.0;\ndouble area = ((baseMayor + baseMenor) * altura) / 2;\nstd::cout << \"El área del trapecio es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta metros cúbicos a litros",
+        "codigo": "double metrosCubicosALitros(double metrosCubicos) { return metrosCubicos * 1000; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 20 múltiplos de 7",
+        "codigo": "for (int i = 1; i <= 20; i++) {\n    std::cout << 7 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número",
+        "codigo": "int valorAbsoluto(int num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta pies cúbicos a metros cúbicos",
+        "codigo": "double piesCubicos = 100;\ndouble metrosCubicos = piesCubicos * 0.0283168;\nstd::cout << piesCubicos << \" pies cúbicos son \" << metrosCubicos << \" metros cúbicos\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el volumen de una esfera con radio 12",
+        "codigo": "#include <cmath>\ndouble radio = 12.0;\ndouble volumen = (4.0 / 3) * 3.1416 * pow(radio, 3);\nstd::cout << \"El volumen de la esfera es: \" << volumen << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el factorial de un número",
+        "codigo": "int factorial(int n) {\n    if (n == 0) return 1;\n    return n * factorial(n - 1);\n}"
+    },
+    {
+        "instruccion": "Imprimir la suma de los primeros 20 números naturales",
+        "codigo": "int suma = 0;\nfor (int i = 1; i <= 20; i++) {\n    suma += i;\n}\nstd::cout << \"La suma de los primeros 20 números naturales es: \" << suma << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta litros a mililitros",
+        "codigo": "double litrosAMililitros(double litros) { return litros * 1000; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta días a horas",
+        "codigo": "int dias = 7;\nint horas = dias * 24;\nstd::cout << dias << \" días son \" << horas << \" horas\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que convierta horas a segundos",
+        "codigo": "int horasASegundos(int horas) { return horas * 3600; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 12 múltiplos de 7 en una sola línea",
+        "codigo": "for (int i = 1; i <= 12; i++) {\n    std::cout << 7 * i << \" \";\n}\nstd::cout << std::endl;"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta días a semanas",
+        "codigo": "int dias = 14;\ndouble semanas = dias / 7.0;\nstd::cout << dias << \" días son \" << semanas << \" semanas\" << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el cuadrado de un número entero",
+        "codigo": "int cuadrado(int num) { return num * num; }"
+    },
+    {
+        "instruccion": "Calcular el área de un trapecio con bases 12 y 8 y altura 6",
+        "codigo": "double baseMayor = 12.0, baseMenor = 8.0, altura = 6.0;\ndouble area = ((baseMayor + baseMenor) * altura) / 2;\nstd::cout << \"El área del trapecio es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el módulo de un número",
+        "codigo": "int modulo(int a, int b) { return a % b; }"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta pies a pulgadas",
+        "codigo": "double pies = 3.0;\ndouble pulgadas = pies * 12;\nstd::cout << pies << \" pies son \" << pulgadas << \" pulgadas\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el perímetro de un hexágono con lado 7",
+        "codigo": "int lado = 7;\nint perimetro = 6 * lado;\nstd::cout << \"El perímetro del hexágono es: \" << perimetro << std::endl;"
+    },
+    {
+        "instruccion": "Imprimir los primeros 10 múltiplos de 8",
+        "codigo": "for (int i = 1; i <= 10; i++) {\n    std::cout << 8 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el promedio de un arreglo de enteros",
+        "codigo": "double promedioArreglo(const std::vector<int>& arr) {\n    int suma = 0;\n    for (int num : arr) {\n        suma += num;\n    }\n    return static_cast<double>(suma) / arr.size();\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta litros a mililitros",
+        "codigo": "double litros = 2.5;\ndouble mililitros = litros * 1000;\nstd::cout << litros << \" litros son \" << mililitros << \" mililitros\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un círculo con radio 20",
+        "codigo": "double radio = 20.0;\ndouble area = 3.1416 * radio * radio;\nstd::cout << \"El área del círculo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva el valor absoluto de un número entero",
+        "codigo": "int valorAbsoluto(int num) { return (num < 0) ? -num : num; }"
+    },
+    {
+        "instruccion": "Imprimir los primeros 15 números pares",
+        "codigo": "for (int i = 1; i <= 15; i++) {\n    std::cout << 2 * i << std::endl;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta días a horas",
+        "codigo": "int dias = 2;\nint horas = dias * 24;\nstd::cout << dias << \" días son \" << horas << \" horas\" << std::endl;"
+    },
+    {
+        "instruccion": "Calcular el área de un rectángulo con largo 18 y ancho 12",
+        "codigo": "int largo = 18, ancho = 12;\nint area = largo * ancho;\nstd::cout << \"El área del rectángulo es: \" << area << std::endl;"
+    },
+    {
+        "instruccion": "Crear una función que devuelva la suma de los primeros n números naturales",
+        "codigo": "int sumaNaturales(int n) {\n    return (n * (n + 1)) / 2;\n}"
+    },
+    {
+        "instruccion": "Escribir un programa que convierta segundos a horas y minutos",
+        "codigo": "int segundos = 7200;\nint horas = segundos / 3600;\nint minutos = (segundos % 3600) / 60;\nstd::cout << segundos << \" segundos son \" << horas << \" horas y \" << minutos << \" minutos\" << std::endl;"
+    }
+]

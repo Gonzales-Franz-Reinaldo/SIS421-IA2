@@ -260,4 +260,45 @@ Tipos de Tareas
 
 
 Para la configuración de imágenes es para transformar las imágenes
-librería albumentatios para trnsformaciones 
+librería albumentatios para trnsformaciones
+
+
+
+
+- SEGMENTACION
+ResNet o otros modelos para segementacion.
+
+CHAR-RNN
+TOKENIZAR: Es llevar una palabras o caracteres a numeros
+DICCIONARIO: Todas las palabras que quiero considerar para mi modelo.
+
+
+Para trabajar con secuencias se aplica las ventanas
+total de ventanas 1017472 x 100 
+
+Embeding: 
+
+
+
+
+SEGUNDO PARCIAL
+
+
+04/11/2024
+
+Los caracteres tiene un índice en el vocabulario.
+
+Usamos Bert para los vocabularios
+- Tokenizar cada palabra
+
+
+Utilizar un Toknizador pre-entrenados
+
+Un modelo que clasifique el text
+- texto para estudiantes
+- docentes, penalaziacion
+- premiación
+- información
+
+Poner un texto y predecir si el texto es para el estudiante o docente, etc.
+Entrenar el modelo si el texto es positivo o negativo.
