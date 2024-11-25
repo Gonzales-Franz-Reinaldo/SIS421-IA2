@@ -1,0 +1,3 @@
+Dirección de Git Hub LAB-08
+
+https://github.com/Gonzales-Franz-Reinaldo/SIS421-IA2/tree/main/Laboratorios/LAB-08_NLP
