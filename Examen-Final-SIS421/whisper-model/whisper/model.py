@@ -36,16 +36,16 @@ class ModelDimensions:
     #? Define las dimensiones clave del modelo
     
     # Codificador de audio (procesamiento de espectrogramas Mel)
-    n_mels: int              #* Número de filtros Mel
-    n_audio_ctx: int         #* Contexto del audio
-    n_audio_state: int       #* Estado del codificador de audio
+    n_mels: int              #* Número de filtros Mel para la transformacion de audio en el espectrograma
+    n_audio_ctx: int         #* Contexto del audio, cantidad de texto a procesar
+    n_audio_state: int       #* Estado del codificador de audio, tamaño del vector de estado que el codificador
     n_audio_head: int        #* Número de cabezas de atención en audio
     n_audio_layer: int       #* Número de capas del codificador
     
     # Decodificador de texto (generación de texto)
-    n_vocab: int             #* Tamaño del vocabulario
-    n_text_ctx: int          #* Contexto máximo para texto
-    n_text_state: int        #* Estado del decodificador de texto
+    n_vocab: int             #* Tamaño del vocabulario, que incluye palabras, tokens de idioma
+    n_text_ctx: int          #* Contexto máximo para texto, cantidad máxima de tokens de texto a procesar
+    n_text_state: int        #* Tamaño del vector de estado que el decodificador usa para representar el texto durante la generación
     n_text_head: int         #* Número de cabezas de atención en texto
     n_text_layer: int        #* Número de capas del decodificador
 
@@ -124,8 +124,10 @@ class MultiHeadAttention(nn.Module):
     use_sdpa = True  # Indica si se debe usar la versión optimizada de atención escalar
 
     def __init__(self, n_state: int, n_head: int):
+        # n_state representa la dimensión de los vectores de entrada y salida
         super().__init__()
         self.n_head = n_head  # Número de cabezas de atención
+        
         #* Transformaciones lineales para Q, K, V y salida
         self.query = Linear(n_state, n_state)  # Proyección para el vector Query (Q)
         self.key = Linear(n_state, n_state, bias=False)  # Proyección para el vector Key (K)
@@ -137,7 +139,7 @@ class MultiHeadAttention(nn.Module):
         self,  
         x: Tensor, # Entrada principal (Q) para la atención
         xa: Optional[Tensor] = None,  # Si es atención cruzada, usa un segundo tensor para K y V
-        mask: Optional[Tensor] = None,  # Máscara para posiciones a ignorar
+        mask: Optional[Tensor] = None,  # Máscara para posiciones a ignorar, sirve para prevenir acceso a tokens futuros
         kv_cache: Optional[dict] = None,  # Cache para reutilizar cálculos
     ):
         q = self.query(x)  # Calcula el vector Query (Q)
@@ -153,7 +155,7 @@ class MultiHeadAttention(nn.Module):
 
         # Calcula la atención usando Q, K, V y la máscara
         wv, qk = self.qkv_attention(q, k, v, mask)
-        return self.out(wv), qk  # Aplica la proyección final y retorna la salida
+        return self.out(wv), qk  # Aplica la proyección final y retorna la salida de atención
 
 
     #? Realiza cálculos de atención (clave para comprensión)
@@ -387,7 +389,8 @@ class Whisper(nn.Module):
             self.dims.n_text_layer, self.dims.n_text_head, dtype=torch.bool
         )
         
-        all_heads[self.dims.n_text_layer // 2 :] = True
+        
+        all_heads[self.dims.n_text_layer // 2 :] = True # * Solo las cabezas de la mitad de las capas hacia adelante son verdaderas
         self.register_buffer("alignment_heads", all_heads.to_sparse(), persistent=False)
 
 

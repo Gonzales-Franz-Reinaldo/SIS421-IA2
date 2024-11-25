@@ -240,16 +240,7 @@ class Tokenizer:
 
     @cached_property
     def non_speech_tokens(self) -> Tuple[int]:
-        """
-        Returns the list of tokens to suppress in order to avoid any speaker tags or non-speech
-        annotations, to prevent sampling texts that are not actually spoken in the audio, e.g.
-
-        - ♪♪♪
-        - ( SPEAKING FOREIGN LANGUAGE )
-        - [DAVID] Hey there,
-
-        keeping basic punctuations like commas, periods, question marks, exclamation points, etc.
-        """
+        
         symbols = list('"#()*+/:;<=>@[\\]^_`{|}~「」『』')
         symbols += (
             "<< >> <<< >>> -- --- -( -[ (' (\" (( )) ((( ))) [[ ]] {{ }} ♪♪ ♪♪♪".split()
