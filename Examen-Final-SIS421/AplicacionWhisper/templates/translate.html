@@ -1,0 +1,144 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="text-3xl font-bold text-center mb-6 text-orange-700">Traducción a Inglés</h2>
+
+<div class="p-6 bg-gradient-to-r from-yellow-200 via-orange-100 to-yellow-300 rounded-lg shadow-lg">
+    <form action="" method="post" enctype="multipart/form-data" id="audio-form" class="space-y-4">
+        <div class="bg-white p-4 rounded-lg shadow-lg border border-orange-300">
+            <label class="block text-orange-800 font-semibold">Sube un archivo de audio o graba en tiempo real:</label>
+            <input type="file" name="audio" accept="audio/*" id="audio-upload"
+                class="mt-2 block w-full border border-orange-500 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-orange-500" />
+        </div>
+
+        <!-- Botón de grabación -->
+        <div class="flex items-center space-x-4 mt-4">
+            <button type="button" id="record-btn"
+                class="bg-orange-500 hover:bg-orange-600 text-white p-4 rounded-full shadow-lg transition duration-300">
+                <i class="material-icons text-2xl">mic</i>
+            </button>
+            <span id="record-timer" class="text-orange-700 font-bold text-lg">00:00</span>
+        </div>
+
+        <!-- Contenedor para el reproductor de audio -->
+        {% if audio_url %}
+        <div id="audio-preview" class="mt-6">
+            <h3 class="text-lg font-semibold mb-2 text-orange-800">Previsualización del audio:</h3>
+            <audio controls class="w-full border border-orange-400 rounded-lg shadow-md">
+                <source id="audio-source" src="{{ audio_url }}" type="audio/mpeg" />
+                Tu navegador no soporta reproducción de audio.
+            </audio>
+        </div>
+        {% endif %}
+
+        <div class="text-center mt-6">
+            <button type="submit"
+                class="bg-orange-600 hover:bg-orange-700 text-white py-3 px-6 rounded-lg shadow-lg font-semibold transition duration-300">
+                Traducir
+            </button>
+        </div>
+    </form>
+</div>
+
+{% if result %}
+<div class="bg-orange-100 p-6 rounded-lg shadow-lg mt-6">
+    <h3 class="text-lg font-bold text-orange-800">Traducción:</h3>
+    <p class="mt-4 text-orange-700 font-medium">{{ result }}</p>
+
+    <!-- Botones de descarga -->
+    <div class="mt-6 space-x-4 text-center">
+        <a href="/download/txt"
+            class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg shadow-lg transition duration-300">
+            Descargar TXT
+        </a>
+        <a href="/download/pdf"
+            class="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-lg shadow-lg transition duration-300">
+            Descargar PDF
+        </a>
+    </div>
+</div>
+{% endif %}
+
+<!-- JavaScript para grabar audio -->
+<script>
+    let mediaRecorder;
+    let audioChunks = [];
+    let timerInterval;
+    let seconds = 0;
+
+    const recordBtn = document.getElementById("record-btn");
+    const timerDisplay = document.getElementById("record-timer");
+    const audioUpload = document.getElementById("audio-upload");
+    const form = document.getElementById("audio-form");
+
+    recordBtn.addEventListener("click", () => {
+        if (!mediaRecorder || mediaRecorder.state === "inactive") {
+            startRecording();
+        } else {
+            stopRecording();
+        }
+    });
+
+    function startRecording() {
+        navigator.mediaDevices.getUserMedia({ audio: true }).then((stream) => {
+            mediaRecorder = new MediaRecorder(stream);
+            mediaRecorder.start();
+            audioChunks = [];
+
+            mediaRecorder.ondataavailable = (event) => {
+                audioChunks.push(event.data);
+            };
+
+            mediaRecorder.onstop = () => {
+                const audioBlob = new Blob(audioChunks, { type: "audio/wav" });
+                const file = new File([audioBlob], "recorded_audio.wav", {
+                    type: "audio/wav",
+                });
+
+                // Crear un nuevo formulario para enviar el archivo grabado
+                const formData = new FormData();
+                formData.append("audio", file);
+
+                // Enviar el archivo al backend
+                fetch(window.location.href, {
+                    method: "POST",
+                    body: formData,
+                })
+                    .then((response) => response.text())
+                    .then((html) => {
+                        document.body.innerHTML = html; // Carga la nueva respuesta en la página
+                    })
+                    .catch((error) =>
+                        console.error("Error al enviar el archivo grabado:", error)
+                    );
+            };
+
+            startTimer();
+            recordBtn.innerHTML =
+                '<i class="material-icons text-2xl text-red-500">stop</i>';
+        });
+    }
+
+    function stopRecording() {
+        mediaRecorder.stop();
+        stopTimer();
+        recordBtn.innerHTML = '<i class="material-icons text-2xl">mic</i>';
+    }
+
+    function startTimer() {
+        seconds = 0;
+        timerDisplay.textContent = "00:00";
+        timerInterval = setInterval(() => {
+            seconds++;
+            const minutes = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            timerDisplay.textContent = `${String(minutes).padStart(2, "0")}:${String(
+                secs
+            ).padStart(2, "0")}`;
+        }, 1000);
+    }
+
+    function stopTimer() {
+        clearInterval(timerInterval);
+    }
+</script>
+{% endblock %}

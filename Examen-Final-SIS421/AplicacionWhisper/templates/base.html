@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whisper App - {{ title }}</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 py-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-white">Whisper App</h1>
+            <nav>
+                <a href="/" class="text-white hover:underline mx-2">Inicio</a>
+                <a href="/task/asr" class="text-white hover:underline mx-2">Reconocimiento</a>
+                <a href="/task/detect_language" class="text-white hover:underline mx-2">Detección Idioma</a>
+                <a href="/task/translate" class="text-white hover:underline mx-2">Traducción</a>
+                <a href="/task/multilingual_transcription" class="text-white hover:underline mx-2">Transcripción</a>
+            </nav>
+        </div>
+    </header>
+    <main class="container mx-auto mt-10">
+        {% block content %}{% endblock %}
+    </main>
+    <footer class="mt-10 py-4 bg-gray-200 text-center text-gray-600">
+        © 2024 Whisper App. Todos los derechos reservados.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% block content %}
+<h2 class="text-3xl font-bold text-center mb-6 text-purple-700">Detección del Idioma</h2>
+
+<div class="p-6 bg-gradient-to-r from-purple-200 via-purple-100 to-purple-300 rounded-lg shadow-lg">
+    <form action="" method="post" enctype="multipart/form-data" id="audio-form" class="space-y-4">
+        <div class="bg-white p-4 rounded-lg shadow-lg border border-purple-300">
+            <label class="block text-purple-800 font-semibold">Sube un archivo de audio o graba en tiempo real:</label>
+            <input type="file" name="audio" accept="audio/*" id="audio-upload"
+                class="mt-2 block w-full border border-purple-500 rounded-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-purple-500" />
+        </div>
+
+        <!-- Botón de grabación -->
+        <div class="flex items-center space-x-4 mt-4">
+            <button type="button" id="record-btn"
+                class="bg-purple-500 hover:bg-purple-600 text-white p-4 rounded-full shadow-lg transition duration-300">
+                <i class="material-icons text-2xl">mic</i>
+            </button>
+            <span id="record-timer" class="text-purple-700 font-bold text-lg">00:00</span>
+        </div>
+
+        <!-- Contenedor para el reproductor de audio -->
+        {% if audio_url %}
+        <div id="audio-preview" class="mt-6">
+            <h3 class="text-lg font-semibold mb-2 text-purple-800">Previsualización del audio:</h3>
+            <audio controls class="w-full border border-purple-400 rounded-lg shadow-md">
+                <source id="audio-source" src="{{ audio_url }}" type="audio/mpeg" />
+                Tu navegador no soporta reproducción de audio.
+            </audio>
+        </div>
+        {% endif %}
+
+        <div class="text-center mt-6">
+            <button type="submit"
+                class="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg shadow-lg font-semibold transition duration-300">
+                Detectar Idioma
+            </button>
+        </div>
+    </form>
+</div>
+
+{% if result %}
+<div class="bg-purple-100 p-6 rounded-lg shadow-lg mt-6">
+    <h3 class="text-lg font-bold text-purple-800">Idioma Detectado:</h3>
+    <p class="mt-4 text-purple-700 font-medium">{{ result }}</p>
+</div>
+{% endif %}
+
+<!-- JavaScript para grabar audio -->
+<script>
+    let mediaRecorder;
+    let audioChunks = [];
+    let timerInterval;
+    let seconds = 0;
+
+    const recordBtn = document.getElementById("record-btn");
+    const timerDisplay = document.getElementById("record-timer");
+    const audioUpload = document.getElementById("audio-upload");
+    const form = document.getElementById("audio-form");
+
+    recordBtn.addEventListener("click", () => {
+        if (!mediaRecorder || mediaRecorder.state === "inactive") {
+            startRecording();
+        } else {
+            stopRecording();
+        }
+    });
+
+    function startRecording() {
+        navigator.mediaDevices.getUserMedia({ audio: true }).then((stream) => {
+            mediaRecorder = new MediaRecorder(stream);
+            mediaRecorder.start();
+            audioChunks = [];
+
+            mediaRecorder.ondataavailable = (event) => {
+                audioChunks.push(event.data);
+            };
+
+            mediaRecorder.onstop = () => {
+                const audioBlob = new Blob(audioChunks, { type: "audio/wav" });
+                const file = new File([audioBlob], "recorded_audio.wav", {
+                    type: "audio/wav",
+                });
+
+                // Crear un nuevo formulario para enviar el archivo grabado
+                const formData = new FormData();
+                formData.append("audio", file);
+
+                // Enviar el archivo al backend
+                fetch(window.location.href, {
+                    method: "POST",
+                    body: formData,
+                })
+                    .then((response) => response.text())
+                    .then((html) => {
+                        document.body.innerHTML = html; // Carga la nueva respuesta en la página
+                    })
+                    .catch((error) =>
+                        console.error("Error al enviar el archivo grabado:", error)
+                    );
+            };
+
+            startTimer();
+            recordBtn.innerHTML =
+                '<i class="material-icons text-2xl text-red-500">stop</i>';
+        });
+    }
+
+    function stopRecording() {
+        mediaRecorder.stop();
+        stopTimer();
+        recordBtn.innerHTML = '<i class="material-icons text-2xl">mic</i>';
+    }
+
+    function startTimer() {
+        seconds = 0;
+        timerDisplay.textContent = "00:00";
+        timerInterval = setInterval(() => {
+            seconds++;
+            const minutes = Math.floor(seconds / 60);
+            const secs = seconds % 60;
+            timerDisplay.textContent = `${String(minutes).padStart(2, "0")}:${String(
+                secs
+            ).padStart(2, "0")}`;
+        }, 1000);
+    }
+
+    function stopTimer() {
+        clearInterval(timerInterval);
+    }
+</script>
+{% endblock %}

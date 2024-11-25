@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="text-center">
+    <h2 class="text-4xl font-extrabold mb-8 text-gradient bg-gradient-to-r from-blue-600 to-green-400 inline-block text-transparent bg-clip-text">
+        Bienvenido a Whisper App
+    </h2>
+    <p class="text-lg text-gray-600 mb-12">
+        Selecciona una de las opciones para comenzar:
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <!-- Reconocimiento -->
+        <a href="/task/asr" class="group block bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition duration-300 relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-purple-600 opacity-0 group-hover:opacity-10 transition duration-300"></div>
+            <h3 class="text-2xl font-bold text-blue-600 group-hover:text-blue-800">
+                Reconocimiento
+            </h3>
+            <p class="text-gray-500 mt-2 group-hover:text-gray-700">
+                Convierte audio en texto transcrito.
+            </p>
+        </a>
+
+        <!-- Detección de Idioma -->
+        <a href="/task/detect_language" class="group block bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition duration-300 relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-r from-green-400 to-teal-500 opacity-0 group-hover:opacity-10 transition duration-300"></div>
+            <h3 class="text-2xl font-bold text-green-600 group-hover:text-green-800">
+                Detección Idioma
+            </h3>
+            <p class="text-gray-500 mt-2 group-hover:text-gray-700">
+                Detecta el idioma del audio.
+            </p>
+        </a>
+
+        <!-- Traducción -->
+        <a href="/task/translate" class="group block bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition duration-300 relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-r from-orange-400 to-red-500 opacity-0 group-hover:opacity-10 transition duration-300"></div>
+            <h3 class="text-2xl font-bold text-orange-600 group-hover:text-orange-800">
+                Traducción
+            </h3>
+            <p class="text-gray-500 mt-2 group-hover:text-gray-700">
+                Traduce audio a texto en inglés.
+            </p>
+        </a>
+
+        <!-- Transcripción Multilingüe -->
+        <a href="/task/multilingual_transcription" class="group block bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition duration-300 relative overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover:opacity-10 transition duration-300"></div>
+            <h3 class="text-2xl font-bold text-purple-600 group-hover:text-purple-800">
+                Transcripción Multilingüe
+            </h3>
+            <p class="text-gray-500 mt-2 group-hover:text-gray-700">
+                Transcribe audio en su idioma original.
+            </p>
+        </a>
+    </div>
+</div>
+{% endblock %}
